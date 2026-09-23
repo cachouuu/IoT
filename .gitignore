@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+**/.streamlit/secrets.toml
+*.db
+*.db-*
+/HW1/data/
+/_site/
+# Local assignment sources, notes, and legacy checkouts.
+/作業要求/
+/submission/
+/tmp/
+/DIC1_PersonalPage/
+/HW1_Taiwan_Weather/
