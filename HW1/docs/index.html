@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f3ef">
+  <meta name="description" content="台灣 22 縣市未來 36 小時天氣預報，查看各時段溫度、降雨機率與縣市比較。">
+  <title>台灣天氣預報 · HW1 | Sam Wei</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f4f3ef'/%3E%3Ccircle cx='32' cy='32' r='16' fill='%23596647'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到天氣預報</a>
+  <header class="masthead wrap"><a href="https://cachouuu.github.io/IoT/" class="home-link">← Sam Wei <span>回個人首頁</span></a><span class="masthead-label">HW1 / TAIWAN WEATHER</span><a href="https://github.com/cachouuu/IoT/tree/main/HW1" target="_blank" rel="noopener noreferrer" class="source-link">GitHub ↗<span class="sr-only">新分頁</span></a></header>
+  <main class="wrap" id="main">
+    <div class="page-heading"><div><p class="eyebrow">TAIWAN / 36-HOUR FORECAST</p><h1>台灣天氣<span>Weather forecast.</span></h1></div><div class="data-meta"><span class="source-badge" id="source-label">讀取資料中</span><p id="updated-at">—</p></div></div>
+    <div class="notice" id="data-notice" role="status">正在讀取預報資料…</div>
+    <div class="error-notice" id="error-message" role="alert" hidden></div>
+    <section class="controls" aria-label="選擇預報"><div class="select-field"><label for="city-select">縣市</label><select id="city-select" disabled><option>讀取中</option></select></div><div class="select-field period-select"><label for="period-select">預報時段 · 台灣時間</label><select id="period-select" disabled><option>讀取中</option></select></div><button id="refresh-button" class="refresh-button" type="button">重新讀取 <span aria-hidden="true">↻</span></button></section>
+    <div id="forecast-content" hidden>
+      <section class="forecast-hero" aria-labelledby="city-name">
+        <div class="city-panel"><p class="eyebrow">所選時段預報</p><div class="city-title"><h2 id="city-name">—</h2><span id="weather-icon" aria-hidden="true">☁</span></div><p class="weather-description" id="weather-description">—</p><p class="period-caption" id="period-caption">—</p></div>
+        <div class="temperature-panel"><p class="metric-label">溫度範圍</p><p class="large-temperature"><span id="min-temp">—</span><span class="temp-separator">—</span><span id="max-temp">—</span><span class="unit">°C</span></p><p class="comfort" id="comfort">—</p></div>
+        <div class="rain-panel"><p class="metric-label">降雨機率</p><p class="rain-value"><span id="rain-value">—</span><span>%</span></p><div class="rain-track" aria-hidden="true"><span id="rain-fill"></span></div><p class="metric-footnote">預報時段內的降雨機率</p></div>
+      </section>
+      <section class="outlook" aria-labelledby="outlook-title"><div class="section-heading"><h2 id="outlook-title">預報時段</h2><span>FORECAST PERIODS</span></div><div class="period-cards" id="period-cards"></div></section>
+      <section class="comparison" aria-labelledby="comparison-title"><div class="section-heading"><div><h2 id="comparison-title">縣市比較</h2><p id="comparison-time">相同預報時段</p></div><div class="sort-control"><label for="sort-select">排序</label><select id="sort-select"><option value="rain">降雨機率：高至低</option><option value="temperature">最高溫：高至低</option><option value="name">縣市名稱</option></select></div></div><div class="table-scroll"><table><caption class="sr-only">各縣市相同時段的天氣、最低溫、最高溫與降雨機率</caption><thead><tr><th scope="col">縣市</th><th scope="col">天氣</th><th scope="col">最低溫</th><th scope="col">最高溫</th><th scope="col">降雨機率</th></tr></thead><tbody id="comparison-body"></tbody></table></div><p class="table-note">點選縣市名稱，查看該縣市的完整預報。</p></section>
+      <details class="data-details"><summary>資料來源與更新紀錄 <span aria-hidden="true">＋</span></summary><div class="details-content"><dl><div><dt>資料集</dt><dd>中央氣象署 F-C0032-001 · 今明 36 小時天氣預報</dd></div><div><dt>目前模式</dt><dd id="detail-source">—</dd></div><div><dt>資料讀取時間</dt><dd id="detail-updated">—</dd></div><div><dt>更新方式</dt><dd>網站顯示最近發布的資料。重新讀取會取得網站現有版本。</dd></div></dl><div class="history-list" id="history-list"></div><p><a href="https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001" target="_blank" rel="noopener noreferrer">中央氣象署資料說明 ↗</a></p></div></details>
+    </div>
+    <noscript><p class="notice">此頁需要 JavaScript 顯示天氣資料。請開啟 JavaScript 後重新載入。</p></noscript>
+  </main>
+  <footer class="wrap footer"><span>SAM WEI / HW1</span><p>資料來源：中央氣象署開放資料平臺。示範模式使用合成資料。</p><a href="https://cachouuu.github.io/IoT/">回個人首頁 ↑</a></footer>
+</body>
+</html>

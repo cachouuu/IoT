@@ -23,6 +23,8 @@ HW1 目前使用合成示範資料，22 縣市各 3 個時段，非即時天氣�
 
 ## 執行 HW1
 
+需要 Python 3.11 以上，建議 3.12。
+
 ```bash
 cd HW1
 python3 -m venv .venv

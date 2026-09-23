@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f3ef">
+  <meta name="description" content="Sam Wei 的個人網站，收錄個人資料、專案作品與課程作業。">
+  <title>Sam Wei — Personal Website</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f4f3ef'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='44' fill='%232e342e'%3ES%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#top" aria-label="Sam Wei，回到頁首">SW<span class="wordmark-dot">.</span></a>
+    <span class="edition">PERSONAL WEBSITE<br>PROFILE · PROJECTS · COURSEWORK</span>
+    <nav aria-label="主要導覽">
+      <a href="#about">About <span>關於</span></a>
+      <a href="#skills">Skills <span>技能</span></a>
+      <a href="#projects">Projects <span>作品</span></a>
+      <a href="https://cachouuu.github.io/IoT/HW1/">HW1 <span>台灣天氣</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-line"></span> PERSONAL PORTFOLIO / 2026</p>
+        <h1 id="hero-title">Sam<br><span class="surname">Wei<span class="name-period">.</span></span></h1>
+        <p class="hero-subtitle">Projects &amp; <em>coursework.</em></p>
+        <p class="hero-intro">個人資料、專案作品，<br>以及課程作業成果。</p>
+        <a class="text-link hero-link" href="#projects">View projects <span aria-hidden="true">↗</span><span class="sr-only">瀏覽作品</span></a>
+      </div>
+      <figure class="hero-image">
+        <div class="image-frame"><img src="assets/editorial-still-life.jpg" alt="攤開的空白筆記本、深色織物與日光，構成安靜的學習靜物。" width="1122" height="1402" fetchpriority="high"></div>
+        <figcaption><span>STILL LIFE / 01</span><span>NOTEBOOK STUDY</span></figcaption>
+      </figure>
+      <div class="hero-bottom"><span>PROFILE · SELECTED PROJECTS · COURSEWORK</span><a href="#about">ABOUT ME <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="section wrap about" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><span class="section-number">01 — ABOUT</span><h2 id="about-title">About <br><em>me.</em></h2></div>
+      <div class="about-content">
+        <p class="section-lead">你好，我是 Sam。</p>
+        <p class="body-copy" id="profile-bio">目前關注晶片測試、可測試性設計（DFT），以及硬體木馬（Hardware Trojan）的偵測與定位。也在探索圖神經網路與無監督學習在硬體安全上的應用。</p>
+        <div class="profile-sheet">
+          <div class="avatar" role="img" aria-label="Sam Wei 的 SW 字母頭像">SW<span>PERSONAL<br>MONOGRAM</span></div>
+          <dl class="profile-details">
+            <div><dt>NAME / 姓名</dt><dd id="profile-name">Sam Wei</dd></div>
+            <div><dt>DEPARTMENT / 科系</dt><dd id="profile-department" class="pending">待補充</dd></div>
+            <div><dt>FOCUS / 學習方向</dt><dd id="profile-focus">DFT · Hardware Security</dd></div>
+          </dl>
+        </div>
+        <p class="personal-note">待補資料：科系、個人照片與聯絡方式。</p>
+      </div>
+    </section>
+
+    <section class="section wrap skills" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><span class="section-number">02 — SKILLS</span><h2 id="skills-title">Skills &amp; <br><em>tools.</em></h2><p class="section-aside">課程專案中使用的工具與方法。</p></div>
+      <div class="skill-list">
+        <article class="skill-row"><span class="item-number">01</span><div><h3>Python</h3><p>強化學習環境、訓練流程與實驗結果整理。</p></div><span class="skill-context">課程實作</span></article>
+        <article class="skill-row"><span class="item-number">02</span><div><h3>Deep Reinforcement Learning</h3><p>GridWorld、DQN 與不同演算法的訓練比較。</p></div><span class="skill-context">課程實作</span></article>
+        <article class="skill-row"><span class="item-number">03</span><div><h3>PyTorch</h3><p>神經網路建模、經驗回放與策略訓練。</p></div><span class="skill-context">課程實作</span></article>
+      </div>
+    </section>
+
+    <section class="section wrap projects" id="projects" aria-labelledby="projects-title">
+      <div class="projects-heading"><div><span class="section-number">03 — SELECTED WORK</span><h2 id="projects-title">Selected <em>projects.</em></h2></div><p class="section-aside">專案內容、使用技術與成果連結。</p></div>
+      <article class="project">
+        <div class="project-art" aria-label="Deep Q-Network 專案封面"><span class="project-art-label">A STUDY IN REINFORCEMENT LEARNING</span><p aria-hidden="true">Q<span>(s, a)</span></p><span class="project-art-bottom">OBSERVE. ACT. LEARN.</span></div>
+        <div class="project-copy"><p class="eyebrow">01 / COURSE PROJECT · DRL</p><h3>Deep Q-Network<br><em>&amp; Variants.</em></h3><h4>DRL 課程專案</h4><p>以 GridWorld 為環境，實作 DQN 與不同變體，透過訓練曲線觀察策略如何逐步改善。</p><ul class="tags" aria-label="使用技術"><li>Python</li><li>PyTorch</li><li>Deep Q-Learning</li></ul><div class="project-links"><a class="text-link" href="https://cachouuu.github.io/DRL/HW3-DQN/" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span><span class="sr-only">開啟 DQN 專案（新分頁）</span></a><a href="https://github.com/cachouuu/DRL/tree/main/docs/HW3-DQN" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only">（新分頁）</span></a></div></div>
+      </article>
+      <div class="course-index" aria-labelledby="course-title"><div class="course-index-heading"><span class="section-number">COURSE INDEX</span><h3 id="course-title">Coursework <em>作業入口</em></h3></div><div class="course-row"><span class="item-number">DIC1</span><span>Personal Page</span><span class="course-current">目前所在首頁</span></div><a class="course-row course-entry" href="https://cachouuu.github.io/IoT/HW1/"><span class="item-number">HW1</span><span>Taiwan Weather <small>台灣天氣預報</small></span><span class="course-enter">進入網站 ↗</span></a></div>
+    </section>
+
+    <section class="time-section" aria-labelledby="time-title">
+      <div class="wrap time-inner">
+        <div class="time-caption"><span class="section-number">04 — LIVE CLOCK</span><h2 id="time-title">Local <br><em>time.</em></h2><p id="greeting">瀏覽器所在時區的即時時間。</p></div>
+        <div class="clock-panel">
+          <div class="clock-meta"><span id="clock-date">—</span><span id="time-zone">LOCAL TIME</span></div>
+          <div class="clock-line"><time id="live-clock" aria-label="即時當地時間">--:--:--</time><span id="clock-period"></span></div>
+          <div class="clock-controls"><div class="format-control" role="group" aria-label="時間格式"><button type="button" data-format="24" aria-pressed="true">24H</button><span aria-hidden="true">/</span><button type="button" data-format="12" aria-pressed="false">12H</button></div><button class="copy-time" id="copy-time" type="button">複製此刻時間 <span aria-hidden="true">↗</span></button></div>
+          <p class="clock-message" id="clock-message" role="status"></p>
+          <noscript><p>請開啟 JavaScript 以顯示即時時鐘。</p></noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap"><div class="footer-top"><p>Sam<br><em>Wei.</em></p><div class="footer-contact"><span class="section-number">FIND ME</span><a href="https://github.com/cachouuu" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only">（新分頁）</span></a><span id="profile-contact" class="pending">聯絡方式 · 待補充</span></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> SAM WEI</span><span>PERSONAL WEBSITE</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>
