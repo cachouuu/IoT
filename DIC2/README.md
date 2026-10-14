@@ -13,6 +13,8 @@
 
 ## 加分網站
 
+已發布：[DIC2 Regression Studio](https://cachouuu.github.io/IoT/DIC2/)。[個人首頁](https://cachouuu.github.io/IoT/) 的頂部導覽與 Coursework 區皆有入口，DIC2 頁首可返回首頁。
+
 在本資料夾執行：
 
 ```sh
@@ -70,7 +72,9 @@ Python 內建分析採 `train_test_split(test_size=0.2, random_state=0)`；5-fol
 
 ## 發布狀態
 
-原有 `.github/workflows/deploy.yml` 已加入 `DIC2/site/` 的部署整合。推送已驗證的變更到 `main` 後，可發布至 `https://cachouuu.github.io/IoT/DIC2/`。本次交付先完成本機網站與繳交包，**尚未推送或公開部署**；請勿把預計網址當成已上線。
+2026-10-14 已推送至 `cachouuu/IoT` 的 `main`，GitHub Pages [部署成功](https://github.com/cachouuu/IoT/actions/runs/38531009035)。公開網址為 [https://cachouuu.github.io/IoT/DIC2/](https://cachouuu.github.io/IoT/DIC2/)。
+
+原有 `.github/workflows/deploy.yml` 已整合 DIC1 首頁、HW1 天氣與 `DIC2/site/`；後續網站更新推送至 `main` 即可自動部署。公開頁面已實際驗證首頁入口、返回首頁、Boston 切換、CSV 上傳與老師指定 URL 的重新分析，手機版面和時鐘也通過。部署紀錄見 `output/deployment.json`、`output/live_verification.json`。尚未代為上傳 iLearning。
 
 ## 查核
 

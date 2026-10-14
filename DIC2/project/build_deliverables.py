@@ -221,13 +221,20 @@ def report(data):
     p('建議繳交：7114056191_DIC2.zip。內容包含本報告、已執行 Notebook、同一套 Python 工作流程、兩題原始資料、結果 CSV、完整互動網站與操作說明。此為以 50 Startups 為主題的完整繳交包，Boston 作延伸與加分展示。')
     p('重新分析：在解壓後的資料夾執行 python -m pip install -r project/requirements.txt，再執行 python project/regression_workflow.py --dataset all。第二題重用：python project/regression_workflow.py --dataset boston。', 'small')
     p('預覽加分網站：python -m http.server 8765 --directory site；開啟 http://localhost:8765/。內建結果來自 Python 的真實分析；自訂資料使用 JavaScript。兩者的亂數演算法與正則化搜尋網格不同，固定種子仍可能產生不同子集，介面有明確註記。', 'small')
-    p('GitHub Pages：已備妥原 IoT 儲存庫的部署整合，網站將發布至 /IoT/DIC2/。本次報告沒有把預計網址當成已部署結果；需完成發布後再使用公開網址繳交。', 'small')
+    deployment_path = OUT / 'deployment.json'
+    deployment = json.loads(deployment_path.read_text()) if deployment_path.exists() else {}
+    if deployment.get('status') == 'success':
+        p(f'GitHub Pages：已於 {deployment["verified_date"]} 部署成功。公開成果：{deployment["dic2_url"]}；個人首頁：{deployment["home_url"]}。首頁導覽與 Coursework 均有 DIC2 入口，DIC2 頁首可返回首頁。正式網站上的兩題切換、CSV 上傳與老師指定 URL 已通過實際瀏覽器驗證。', 'small')
+    else:
+        p('GitHub Pages：已備妥原 IoT 儲存庫的部署整合，網站將發布至 /IoT/DIC2/。需完成發布後再使用公開網址繳交。', 'small')
     qa=OUT/'verification.json'
     if qa.exists():
         checks=json.loads(qa.read_text())
         p('驗證紀錄：'+checks['summary'], 'small')
     p('來源與參考', 'h2')
     refs=[('課堂範例','https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/'),('50 Startups 原始資料',startup['source']),('Boston 原始資料',boston['source']),('Boston 資料背景與棄用說明','https://scikit-learn.org/1.1/modules/generated/sklearn.datasets.load_boston.html'),('SequentialFeatureSelector 官方文件','https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SequentialFeatureSelector.html')]
+    if deployment.get('status') == 'success':
+        refs.insert(0, ('本作業公開成果', deployment['dic2_url']))
     for label,url in refs:
         story.append(Paragraph(escape(label)+': <link href="'+escape(url)+'" color="#247962">'+escape(url)+'</link>',styles['small']))
     p('原始資料的 SHA-256 存於 output/data_sha256.json。套件版本固定於 project/requirements.txt；圖、指標、係數與網站結果均由同一份分析輸出產生。沒有複製老師的模型常數作為自己的計算結果。', 'small')

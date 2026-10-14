@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "summary": "90 個候選模型的切分、係數、CV 與測試指標另行核對；JavaScript 90 個相同子集的係數與統計量與 Python 一致。已知線性資料可重現正確方程；CSV 缺失與格式錯誤已檢查。實際瀏覽器通過兩題切換、CSV 上傳、老師指定 URL 載入與重新計算、即時預測及結果下載；320 / 390 / 768 / 1280px 無頁面水平溢出或 JavaScript 錯誤。",
+  "summary": "90 個候選模型的切分、係數、CV 與測試指標另行核對；JavaScript 90 個相同子集的係數與統計量與 Python 一致。已知線性資料可重現正確方程；CSV 缺失與格式錯誤已檢查。實際瀏覽器通過兩題切換、CSV 上傳、老師指定 URL 載入與重新計算、即時預測及結果下載；320 / 390 / 768 / 1280px 無頁面水平溢出或 JavaScript 錯誤。 GitHub Pages 已部署成功，正式網址上的首頁入口、返回首頁、兩題切換、CSV 上傳與老師指定 URL 分析均通過實際瀏覽器驗證。",
   "numerical": {
     "passed": true,
     "checks": [
@@ -34,6 +34,56 @@
     "exact_teacher_url_loaded": true,
     "page_errors": []
   },
-  "deployment": "not published",
-  "lms_submission": "not submitted"
+  "deployment": {
+    "status": "success",
+    "repository": "cachouuu/IoT",
+    "branch": "main",
+    "commit_sha": "d192b55b27abbe2dd4e142ce660586b3c164ac64",
+    "run_id": 38531009035,
+    "run_url": "https://github.com/cachouuu/IoT/actions/runs/38531009035",
+    "home_url": "https://cachouuu.github.io/IoT/",
+    "dic2_url": "https://cachouuu.github.io/IoT/DIC2/",
+    "verified_date": "2026-10-14",
+    "live_browser_verified": true
+  },
+  "lms_submission": "not submitted",
+  "live_browser": {
+    "passed": true,
+    "home_url": "https://cachouuu.github.io/IoT/",
+    "dic2_url": "https://cachouuu.github.io/IoT/DIC2/",
+    "hw1_url": "https://cachouuu.github.io/IoT/HW1/",
+    "homepage_dic2_navigation": true,
+    "return_home": true,
+    "boston_switch": true,
+    "custom_upload_recomputed": true,
+    "exact_teacher_url_recomputed": true,
+    "mobile_no_overflow": true,
+    "clock_operational": true,
+    "page_errors": []
+  },
+  "publish_preview": {
+    "passed": true,
+    "personal_page_viewports": [
+      320,
+      390,
+      768,
+      860,
+      1050,
+      1440
+    ],
+    "dic2_viewports": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "personal_page_links": 2,
+    "clock_updated": true,
+    "clock_formats": true,
+    "dic2_both_datasets": true,
+    "custom_worker_recomputed": true,
+    "return_home_link": true,
+    "hw1_page_ok": true,
+    "page_errors": []
+  }
 }
