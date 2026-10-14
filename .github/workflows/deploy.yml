@@ -6,6 +6,7 @@ on:
     paths:
       - 'DIC1/**'
       - 'HW1/**'
+      - 'DIC2/site/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
@@ -67,10 +68,11 @@ jobs:
 
       - name: Assemble the coursework website
         run: |
-          mkdir -p _site/HW1
+          mkdir -p _site/HW1 _site/DIC2
           cp DIC1/index.html DIC1/style.css DIC1/app.js DIC1/.nojekyll _site/
           cp -R DIC1/assets _site/assets
           cp -R HW1/docs/. _site/HW1/
+          cp -R DIC2/site/. _site/DIC2/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

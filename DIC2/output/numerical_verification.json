@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "startup: 25 subsets independently verified",
+    "boston: 65 subsets independently verified"
+  ],
+  "independent_libraries": [
+    "sklearn.LinearRegression",
+    "statsmodels.OLS"
+  ]
+}

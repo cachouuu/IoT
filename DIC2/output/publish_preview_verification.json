@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "personal_page_viewports": [
+    320,
+    390,
+    768,
+    860,
+    1050,
+    1440
+  ],
+  "dic2_viewports": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "personal_page_links": 2,
+  "clock_updated": true,
+  "clock_formats": true,
+  "dic2_both_datasets": true,
+  "custom_worker_recomputed": true,
+  "return_home_link": true,
+  "hw1_page_ok": true,
+  "page_errors": []
+}

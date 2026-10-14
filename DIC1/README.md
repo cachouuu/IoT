@@ -8,6 +8,7 @@ IoT / DIC-1 個人網站。呈現自我介紹、技能、專案作品、課程�
 
 - [Live Website](https://cachouuu.github.io/IoT/)
 - [GitHub Repository](https://github.com/cachouuu/IoT/tree/main/DIC1)
+- [DIC2 Regression Studio](https://cachouuu.github.io/IoT/DIC2/)：50 Startups、Boston Housing 與自訂 CSV 分析。
 
 - 姓名沿用上學期 DRL 個人頁的 Sam Wei。
 - 科系、聯絡方式與個人照片待本人補充；目前使用 SW 字母 Avatar。
@@ -83,4 +84,6 @@ const PROFILE = {
 
 ## 作業導覽
 
-此個人頁是課程作業的首頁（DIC1）。頂部導覽與 Coursework 區提供 [HW1 台灣天氣網站](https://cachouuu.github.io/IoT/HW1/) 的入口。學習方向包含 DFT、硬體安全、圖神經網路與無監督學習，與既有課程實作技能分開呈現。
+此個人頁是課程作業的首頁（DIC1）。頂部導覽與 Coursework 區提供 [HW1 台灣天氣網站](https://cachouuu.github.io/IoT/HW1/) 與 [DIC2 Regression Studio](https://cachouuu.github.io/IoT/DIC2/) 的入口。DIC2 呈現 50 Startups、Boston Housing、五種特徵選擇方法與自訂 CSV / URL 分析，頁首可返回個人首頁。學習方向包含 DFT、硬體安全、圖神經網路與無監督學習，與既有課程實作技能分開呈現。
+
+2026-10-14 更新 DIC2 導覽與作業入口，並調整中等螢幕的導覽換行。首頁時鐘與時間格式切換持續保留。

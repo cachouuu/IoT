@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "summary": "90 個候選模型的切分、係數、CV 與測試指標另行核對；JavaScript 90 個相同子集的係數與統計量與 Python 一致。已知線性資料可重現正確方程；CSV 缺失與格式錯誤已檢查。實際瀏覽器通過兩題切換、CSV 上傳、老師指定 URL 載入與重新計算、即時預測及結果下載；320 / 390 / 768 / 1280px 無頁面水平溢出或 JavaScript 錯誤。",
+  "numerical": {
+    "passed": true,
+    "checks": [
+      "startup: 25 subsets independently verified",
+      "boston: 65 subsets independently verified"
+    ],
+    "independent_libraries": [
+      "sklearn.LinearRegression",
+      "statsmodels.OLS"
+    ]
+  },
+  "engine": {
+    "passed": true,
+    "python_subset_comparisons": 90,
+    "csv_edge_cases": true,
+    "known_linear_model": true,
+    "missing_target_handling": true
+  },
+  "browser": {
+    "passed": true,
+    "viewports": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "two_problem_dropdown": true,
+    "method_k_prediction_download": true,
+    "custom_csv_recomputed": true,
+    "url_fetch_recomputed": true,
+    "exact_teacher_url_loaded": true,
+    "page_errors": []
+  },
+  "deployment": "not published",
+  "lms_submission": "not submitted"
+}

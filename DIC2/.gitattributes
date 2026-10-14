@@ -1,0 +1,2 @@
+# Preserve downloaded source CSV bytes for the SHA-256 provenance audit.
+data/*.csv -text

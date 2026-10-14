@@ -6,8 +6,9 @@
 | --- | --- | --- |
 | DIC1：Personal Page | [DIC1](DIC1/) | [個人首頁](https://cachouuu.github.io/IoT/) |
 | HW1：Taiwan Weather App | [HW1](HW1/) | [台灣天氣](https://cachouuu.github.io/IoT/HW1/) |
+| DIC2：Multiple Linear Regression | [DIC2](DIC2/) | [Regression Studio](https://cachouuu.github.io/IoT/DIC2/) |
 
-DIC1 是網站首頁，可從導覽列或作業入口進入 HW1，再返回首頁。
+DIC1 是網站首頁，可從導覽列或作業入口進入 HW1、DIC2，再返回首頁。DIC2 收錄 50 Startups、Boston Housing 及自訂 CSV / URL 分析。
 
 ## 專案結構
 
@@ -16,6 +17,7 @@ DIC1/          個人頁：HTML、CSS、JavaScript、圖片
 HW1/           天氣 App：Python、CWA、SQLite、Streamlit
   docs/        天氣公開展示頁與 JSON 快照
   tests/       資料處理與匯出測試
+DIC2/          兩題迴歸分析與加分網站，site/ 為公開內容
 .github/       共用 GitHub Pages 部署流程
 ```
 
@@ -40,7 +42,7 @@ cd HW1
 python -m unittest discover -s tests -v
 ```
 
-GitHub **Settings → Pages → Source** 設為 **GitHub Actions**。推送 `DIC1/`、`HW1/` 或部署流程的變更到 `main` 時，先執行測試，再將 DIC1 發布到網站根目錄、`HW1/docs/` 發布到 `/HW1/`。兩份作業的程式仍分別存放於原始碼資料夾中。
+GitHub **Settings → Pages → Source** 設為 **GitHub Actions**。推送 `DIC1/`、`HW1/`、`DIC2/site/` 或部署流程的變更到 `main` 時，先執行測試，再將 DIC1 發布到網站根目錄、`HW1/docs/` 發布到 `/HW1/`、`DIC2/site/` 發布到 `/DIC2/`。兩份作業的程式仍分別存放於原始碼資料夾中。
 
 若之後需要 CWA 真實預報，在此 `IoT` 儲存庫設定 `CWA_API_KEY` secret，再手動執行 **Deploy IoT coursework**。沒有金鑰時維持已標示的示範資料，不會自動定時更新。真實 API 尚未完成端到端驗證。
 

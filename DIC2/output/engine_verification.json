@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "python_subset_comparisons": 90,
+  "csv_edge_cases": true,
+  "known_linear_model": true,
+  "missing_target_handling": true
+}

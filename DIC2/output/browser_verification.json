@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "viewports": [
+    320,
+    390,
+    768,
+    1280
+  ],
+  "two_problem_dropdown": true,
+  "method_k_prediction_download": true,
+  "custom_csv_recomputed": true,
+  "url_fetch_recomputed": true,
+  "exact_teacher_url_loaded": true,
+  "page_errors": []
+}
