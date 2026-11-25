@@ -1,0 +1,48 @@
+{
+  "read_date": "2026-11-13",
+  "source_root": "TrafficAgent",
+  "files": [
+    {
+      "source": "DESIGN.md",
+      "snapshot": "source/DESIGN_original.md",
+      "sha256": "618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19",
+      "bytes": 14166
+    },
+    {
+      "source": "proposal/Traffic_Assistant_Proposal_2026-11-03.pdf",
+      "snapshot": "source/Traffic_Assistant_Proposal_2026-11-03.pdf",
+      "sha256": "3f95b14f5d3c2ea7a434e0c898925f5a63c6ccfbc33e96a8d52fe7611761ca78",
+      "bytes": 281764
+    },
+    {
+      "source": "project/embedded/validation/firmware_validation.json",
+      "snapshot": "evidence/firmware_validation_original.json",
+      "sha256": "b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164",
+      "bytes": 42568
+    },
+    {
+      "source": "project/embedded/validation/experiments/2026-10-30_fixed_vs_model/report/EXPERIMENT_REPORT.md",
+      "snapshot": "evidence/EXPERIMENT_REPORT_original.md",
+      "sha256": "5c4f6fcf9442343310213dccc4524db55569e3c112c16e1fe95b0315d42e233f",
+      "bytes": 16615
+    },
+    {
+      "source": "project/embedded/validation/experiments/2026-10-30_fixed_vs_model/host/results_004/comparison.json",
+      "snapshot": "evidence/comparison_6pairs_original.json",
+      "sha256": "38a8ac70dc0127d12f9796740128ebb531f083728d9fb5e4e41e357e088df376",
+      "bytes": 7295
+    },
+    {
+      "source": "project/embedded/model/traffic_model.h",
+      "snapshot": "source/traffic_model.h",
+      "sha256": "47ec8713863dc317c6e9f132e8fac21e264ec7788f778e96b3b9e2cde382269b",
+      "bytes": 976
+    },
+    {
+      "source": "project/embedded/firmware/traffic_agent.c",
+      "snapshot": "source/traffic_agent.c",
+      "sha256": "2a5d781524a20c6a88ec7fc30d40ea3c793ccccd29f7cfeabab7a7b413e34d9c",
+      "bytes": 7357
+    }
+  ]
+}
