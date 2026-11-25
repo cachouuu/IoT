@@ -2,9 +2,9 @@
   "changes": [
     {
       "name": "prepare-ieee-conference-draft",
-      "completedTasks": 12,
+      "completedTasks": 13,
       "totalTasks": 14,
-      "lastModified": "2026-11-25T15:46:57.305Z",
+      "lastModified": "2026-11-25T16:51:17.891Z",
       "status": "in-progress"
     },
     {
@@ -16,7 +16,7 @@
     }
   ],
   "root": {
-    "path": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
+    "path": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4",
     "source": "nearest"
   }
 }

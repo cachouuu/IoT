@@ -5,21 +5,21 @@
       "type": "change",
       "valid": true,
       "issues": [],
-      "durationMs": 41
+      "durationMs": 33
     },
     {
       "id": "paired-evaluation",
       "type": "spec",
       "valid": true,
       "issues": [],
-      "durationMs": 10
+      "durationMs": 7
     },
     {
       "id": "prepare-ieee-conference-draft",
       "type": "change",
       "valid": true,
       "issues": [],
-      "durationMs": 31
+      "durationMs": 23
     },
     {
       "id": "proposal-documentation",
@@ -57,7 +57,7 @@
   },
   "version": "1.0",
   "root": {
-    "path": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
+    "path": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4",
     "source": "nearest"
   }
 }

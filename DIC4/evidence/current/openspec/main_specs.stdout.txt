@@ -14,7 +14,7 @@
     }
   ],
   "root": {
-    "path": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
+    "path": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4",
     "source": "nearest"
   }
 }

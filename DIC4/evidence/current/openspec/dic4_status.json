@@ -3,38 +3,38 @@
   "schemaName": "spec-driven",
   "planningHome": {
     "kind": "repo",
-    "root": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
-    "changesDir": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes",
+    "root": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4",
+    "changesDir": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes",
     "defaultSchema": "spec-driven"
   },
-  "changeRoot": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft",
+  "changeRoot": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft",
   "artifactPaths": {
     "proposal": {
       "outputPath": "proposal.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/proposal.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/proposal.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/proposal.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/proposal.md"
       ]
     },
     "specs": {
       "outputPath": "specs/**/*.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/specs/**/*.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/specs/**/*.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/specs/conference-draft/spec.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/specs/conference-draft/spec.md"
       ]
     },
     "design": {
       "outputPath": "design.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/design.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/design.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/design.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/design.md"
       ]
     },
     "tasks": {
       "outputPath": "tasks.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/tasks.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/tasks.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/prepare-ieee-conference-draft/tasks.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/prepare-ieee-conference-draft/tasks.md"
       ]
     }
   },
@@ -57,7 +57,7 @@
     ],
     "linkedContext": [],
     "allowedEditRoots": [
-      "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4"
+      "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4"
     ],
     "requiresAffectedAreaSelection": false,
     "constraints": [
@@ -98,7 +98,7 @@
     }
   ],
   "root": {
-    "path": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
+    "path": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4",
     "source": "nearest"
   }
 }

@@ -3,42 +3,42 @@
   "schemaName": "spec-driven",
   "planningHome": {
     "kind": "repo",
-    "root": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
-    "changesDir": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes",
+    "root": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4",
+    "changesDir": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes",
     "defaultSchema": "spec-driven"
   },
-  "changeRoot": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow",
+  "changeRoot": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow",
   "artifactPaths": {
     "proposal": {
       "outputPath": "proposal.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/proposal.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/proposal.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/proposal.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/proposal.md"
       ]
     },
     "specs": {
       "outputPath": "specs/**/*.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/specs/**/*.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/specs/**/*.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/specs/data-qualification/spec.md",
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/specs/decision-evidence/spec.md",
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/specs/execution-verification/spec.md",
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/specs/task-intake/spec.md",
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/specs/task-reporting/spec.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/specs/data-qualification/spec.md",
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/specs/decision-evidence/spec.md",
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/specs/execution-verification/spec.md",
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/specs/task-intake/spec.md",
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/specs/task-reporting/spec.md"
       ]
     },
     "design": {
       "outputPath": "design.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/design.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/design.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/design.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/design.md"
       ]
     },
     "tasks": {
       "outputPath": "tasks.md",
-      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/tasks.md",
+      "resolvedOutputPath": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/tasks.md",
       "existingOutputPaths": [
-        "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4/openspec/changes/integrate-task-workflow/tasks.md"
+        "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4/openspec/changes/integrate-task-workflow/tasks.md"
       ]
     }
   },
@@ -61,7 +61,7 @@
     ],
     "linkedContext": [],
     "allowedEditRoots": [
-      "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4"
+      "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4"
     ],
     "requiresAffectedAreaSelection": false,
     "constraints": [
@@ -102,7 +102,7 @@
     }
   ],
   "root": {
-    "path": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
+    "path": "/workspace/scratch/a5a6d3f35365/github_publish/IoT/DIC4",
     "source": "nearest"
   }
 }
