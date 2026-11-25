@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": "integrate-task-workflow",
+      "type": "change",
+      "valid": true,
+      "issues": [],
+      "durationMs": 52
+    },
+    {
+      "id": "paired-evaluation",
+      "type": "spec",
+      "valid": true,
+      "issues": [],
+      "durationMs": 5
+    },
+    {
+      "id": "refactor-project-proposal",
+      "type": "change",
+      "valid": true,
+      "issues": [],
+      "durationMs": 28
+    },
+    {
+      "id": "traffic-control-core",
+      "type": "spec",
+      "valid": true,
+      "issues": [],
+      "durationMs": 1
+    }
+  ],
+  "summary": {
+    "totals": {
+      "items": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "byType": {
+      "change": {
+        "items": 2,
+        "passed": 2,
+        "failed": 0
+      },
+      "spec": {
+        "items": 2,
+        "passed": 2,
+        "failed": 0
+      }
+    }
+  },
+  "version": "1.0",
+  "root": {
+    "path": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13",
+    "source": "nearest"
+  }
+}

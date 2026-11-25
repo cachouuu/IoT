@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "file": "Traffic_Assistant_DIC3_Report.pdf",
+      "pages": 14,
+      "visual_inspection": "PASS",
+      "inspected_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "notes": "All pages rendered and visually reviewed. Literature column widths and minus glyph fixed; corrected pages inspected again.",
+      "sha256": "cdc69dacc73d1f5729fcac495b15529ec32ecda2bc2994090c7ffb5176080f76"
+    },
+    {
+      "file": "Traffic_Assistant_DIC3_Overview.pdf",
+      "pages": 1,
+      "visual_inspection": "PASS",
+      "inspected_pages": [
+        1
+      ],
+      "notes": "All pages rendered and visually reviewed. Literature column widths and minus glyph fixed; corrected pages inspected again.",
+      "sha256": "b1b46dfe953a8f2174301cb2e13cb42b30693ab0c8ee94ea4cc2c042e62ffb01"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "changeName": "integrate-task-workflow",
+  "changeDir": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow",
+  "schemaName": "spec-driven",
+  "contextFiles": {
+    "proposal": [
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\proposal.md"
+    ],
+    "specs": [
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\data-qualification\\spec.md",
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\decision-evidence\\spec.md",
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\execution-verification\\spec.md",
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\task-intake\\spec.md",
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\task-reporting\\spec.md"
+    ],
+    "design": [
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\design.md"
+    ],
+    "tasks": [
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md"
+    ]
+  },
+  "progress": {
+    "total": 12,
+    "complete": 0,
+    "remaining": 12
+  },
+  "tasks": [
+    {
+      "id": "1",
+      "description": "1.1 Implement the required request fields and enumerated modes/policies.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 2
+    },
+    {
+      "id": "2",
+      "description": "1.2 Validate dataset hashes, units, timestamps, coverage and axis pairing.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 3
+    },
+    {
+      "id": "3",
+      "description": "1.3 Reject missing intervals and unsupported capacity without synthetic repair.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 4
+    },
+    {
+      "id": "4",
+      "description": "2.1 Connect the existing FIFO/causal feature engine without future-input access.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 6
+    },
+    {
+      "id": "5",
+      "description": "2.2 Record actual model identity, features, plan and firmware fallback source.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 7
+    },
+    {
+      "id": "6",
+      "description": "2.3 Ensure review mode issues no device writes.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 8
+    },
+    {
+      "id": "7",
+      "description": "3.1 Verify available command-correlation and device-health fields before integration.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 10
+    },
+    {
+      "id": "8",
+      "description": "3.2 Implement submission guards and submitted/applied/timeout/mismatch states.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 11
+    },
+    {
+      "id": "9",
+      "description": "3.3 Link outcomes and limitations into one task report.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 12
+    },
+    {
+      "id": "10",
+      "description": "4.1 Run AT01-AT12 from the report against the new integration.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 14
+    },
+    {
+      "id": "11",
+      "description": "4.2 Revalidate causal windows, fixed metric horizons, zero denominators and regressions.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 15
+    },
+    {
+      "id": "12",
+      "description": "4.3 Perform necessary board readback checks and retain logs before claiming execution success.",
+      "done": false,
+      "sourcePath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "line": 16
+    }
+  ],
+  "taskTrackingConfigured": true,
+  "state": "ready",
+  "instruction": "Read context files, work through pending tasks, mark complete as you go.\nPause if you hit blockers or need clarification.",
+  "context": "Traffic Timing Assistant, a single-intersection educational ARM/FPGA prototype.\nKeep the existing 4-feature integer tree, firmware rule fallback, 3 legal plans,\n30-second cycles, and cycle-boundary application. No new model or hardware deployment.\nDocumentation work and product implementation are distinct. Pending integrations\nare requirements, not completed features. Existing traffic results are synthetic FIFO evidence.\nWrite explanatory prose in Traditional Chinese; use SHALL and WHEN/THEN in requirements.\n",
+  "root": {
+    "path": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13",
+    "source": "nearest"
+  }
+}

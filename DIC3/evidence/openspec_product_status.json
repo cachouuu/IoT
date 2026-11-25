@@ -1,0 +1,108 @@
+{
+  "changeName": "integrate-task-workflow",
+  "schemaName": "spec-driven",
+  "planningHome": {
+    "kind": "repo",
+    "root": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13",
+    "changesDir": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes",
+    "defaultSchema": "spec-driven"
+  },
+  "changeRoot": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow",
+  "artifactPaths": {
+    "proposal": {
+      "outputPath": "proposal.md",
+      "resolvedOutputPath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\proposal.md",
+      "existingOutputPaths": [
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\proposal.md"
+      ]
+    },
+    "specs": {
+      "outputPath": "specs/**/*.md",
+      "resolvedOutputPath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\**\\*.md",
+      "existingOutputPaths": [
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\data-qualification\\spec.md",
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\decision-evidence\\spec.md",
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\execution-verification\\spec.md",
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\task-intake\\spec.md",
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\specs\\task-reporting\\spec.md"
+      ]
+    },
+    "design": {
+      "outputPath": "design.md",
+      "resolvedOutputPath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\design.md",
+      "existingOutputPaths": [
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\design.md"
+      ]
+    },
+    "tasks": {
+      "outputPath": "tasks.md",
+      "resolvedOutputPath": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md",
+      "existingOutputPaths": [
+        "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13\\openspec\\changes\\integrate-task-workflow\\tasks.md"
+      ]
+    }
+  },
+  "isPlanningComplete": true,
+  "isComplete": true,
+  "applyRequires": [
+    "tasks"
+  ],
+  "nextSteps": [
+    "All planning artifacts are complete. Run openspec instructions apply --change \"integrate-task-workflow\" --json to inspect implementation progress."
+  ],
+  "actionContext": {
+    "mode": "repo-local",
+    "sourceOfTruth": "repo",
+    "planningArtifacts": [
+      "proposal",
+      "specs",
+      "design",
+      "tasks"
+    ],
+    "linkedContext": [],
+    "allowedEditRoots": [
+      "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13"
+    ],
+    "requiresAffectedAreaSelection": false,
+    "constraints": [
+      "Repo-local change artifacts and implementation edits are scoped to this project."
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "proposal",
+      "outputPath": "proposal.md",
+      "status": "done",
+      "requires": []
+    },
+    {
+      "id": "specs",
+      "outputPath": "specs/**/*.md",
+      "status": "done",
+      "requires": [
+        "proposal"
+      ]
+    },
+    {
+      "id": "design",
+      "outputPath": "design.md",
+      "status": "done",
+      "requires": [
+        "proposal"
+      ]
+    },
+    {
+      "id": "tasks",
+      "outputPath": "tasks.md",
+      "status": "done",
+      "requires": [
+        "specs",
+        "design"
+      ]
+    }
+  ],
+  "root": {
+    "path": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13",
+    "source": "nearest"
+  }
+}

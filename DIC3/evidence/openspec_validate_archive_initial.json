@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "id": "integrate-task-workflow",
+      "type": "change",
+      "valid": true,
+      "issues": [],
+      "durationMs": 40
+    },
+    {
+      "id": "paired-evaluation",
+      "type": "spec",
+      "valid": true,
+      "issues": [],
+      "durationMs": 5
+    },
+    {
+      "id": "proposal-documentation",
+      "type": "spec",
+      "valid": false,
+      "issues": [
+        {
+          "level": "WARNING",
+          "path": "overview",
+          "line": 4,
+          "message": "Purpose section is still a placeholder rather than a Purpose anyone wrote (the sentence `openspec archive` writes for a new capability, or a `TBD`/`TODO` marker left in its place). Replace it with what this capability is for, editing the main spec directly: a `## Purpose` in a delta is read only when the capability is created, so it cannot replace this one."
+        }
+      ],
+      "durationMs": 1
+    },
+    {
+      "id": "traffic-control-core",
+      "type": "spec",
+      "valid": true,
+      "issues": [],
+      "durationMs": 1
+    }
+  ],
+  "summary": {
+    "totals": {
+      "items": 4,
+      "passed": 3,
+      "failed": 1
+    },
+    "byType": {
+      "change": {
+        "items": 1,
+        "passed": 1,
+        "failed": 0
+      },
+      "spec": {
+        "items": 3,
+        "passed": 2,
+        "failed": 1
+      }
+    }
+  },
+  "version": "1.0",
+  "root": {
+    "path": "C:\\Users\\admin\\Documents\\EGO-ZX7\\TrafficAgent\\assignments\\DIC3_2026-11-13",
+    "source": "nearest"
+  }
+}

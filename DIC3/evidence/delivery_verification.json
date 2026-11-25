@@ -1,0 +1,21 @@
+{
+  "document_assignment": "COMPLETE",
+  "strict_validation": "PASS",
+  "validated_items": 4,
+  "validation_issues": 0,
+  "document_tasks_complete": 8,
+  "product_tasks": {
+    "total": 12,
+    "complete": 0,
+    "remaining": 12
+  },
+  "product_acceptance_AT01_AT12": "NOT_RUN",
+  "current_spec_counts": {
+    "requirements": 20,
+    "scenarios": 35
+  },
+  "existing_data_recalculation": "PASS",
+  "original_source_integrity": "PASS",
+  "pdf_visual_qa": "PASS",
+  "lms_submission": "NOT_SUBMITTED"
+}
