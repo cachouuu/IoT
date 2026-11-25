@@ -62,7 +62,8 @@ def main() -> int:
 詳細指引：traffic-assistant-dic4/docs/SUBMISSION_GUIDE.md。
 本次進度：traffic-assistant-dic4/latest.md。
 實際線上發布狀態：traffic-assistant-dic4/docs/PUBLICATION_STATUS.json。
-產生檔案不代表已在 Overleaf、GitHub 發布，也不代表已在課程平台繳交。
+GitHub 已發布：https://github.com/cachouuu/IoT/tree/main/DIC4
+Overleaf 尚待匯入；課程平台尚待繳交。
 截圖截止日期：2026-11-28；截圖未顯示時分。
 """
     with zipfile.ZipFile(submission_out, "w", zipfile.ZIP_DEFLATED) as archive:
