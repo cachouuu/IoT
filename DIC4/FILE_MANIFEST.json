@@ -1,0 +1,465 @@
+{
+  "scope": "Hashes of project files for cachouuu/IoT/DIC4; the manifest excludes itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 133,
+      "sha256": "ceaa829d8cbac3c60a0a6713b6aad01b386bdda0dd142328f15f98412bea7583"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4561,
+      "sha256": "8f9d9942303c2d93d7d802527cbf074bc32208dc6cc2973da9bc11054e50c895"
+    },
+    {
+      "path": "Traffic_Assistant_DIC4_Overleaf.zip",
+      "bytes": 130679,
+      "sha256": "f370aca2c83180f76a2c7b41ad12c41dc693e7186be1af68fecce14119da87e0"
+    },
+    {
+      "path": "docs/CLAIM_TO_SOURCE.md",
+      "bytes": 2858,
+      "sha256": "a412bd16c842756975d0841dc42a2b4c6c0620ca221e7bba37b04c7a1c088732"
+    },
+    {
+      "path": "docs/EVIDENCE_AUDIT_NOTES.md",
+      "bytes": 13597,
+      "sha256": "1dfc5851c435883659a709b3666141a37f217a280a7852a8023bf111b1134a74"
+    },
+    {
+      "path": "docs/MCP_WORKFLOW.md",
+      "bytes": 4934,
+      "sha256": "1e0403d65d99ce7c92ae61c2ff5636b267f1232497fa9ca6ab920c2b6aeedf3c"
+    },
+    {
+      "path": "docs/PUBLICATION_STATUS.json",
+      "bytes": 514,
+      "sha256": "6c9ecaa2842c53d0dcecfa592466cbc59509fa05664171ff4c958d593aaa9118"
+    },
+    {
+      "path": "docs/REFERENCE_VERIFICATION.md",
+      "bytes": 2455,
+      "sha256": "60c611123b32837b636e29545cef41426591674a34ac644d531452b3da48a9fc"
+    },
+    {
+      "path": "docs/SUBMISSION_GUIDE.md",
+      "bytes": 3029,
+      "sha256": "1f992561179d211d2148f25bc24e6db4103266a75f1c745662dfb07651d4b6e1"
+    },
+    {
+      "path": "evidence/archive/dic3/evidence/EXPERIMENT_REPORT_original.md",
+      "bytes": 16615,
+      "sha256": "5c4f6fcf9442343310213dccc4524db55569e3c112c16e1fe95b0315d42e233f"
+    },
+    {
+      "path": "evidence/archive/dic3/evidence/comparison_6pairs_original.json",
+      "bytes": 7295,
+      "sha256": "38a8ac70dc0127d12f9796740128ebb531f083728d9fb5e4e41e357e088df376"
+    },
+    {
+      "path": "evidence/archive/dic3/evidence/data_audit.json",
+      "bytes": 4766,
+      "sha256": "dee382c1ea39aec2d82751aa0abfaa00dd99f4c8e26ecf34ad862d704e00bbae"
+    },
+    {
+      "path": "evidence/archive/dic3/evidence/firmware_validation_original.json",
+      "bytes": 42568,
+      "sha256": "b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164"
+    },
+    {
+      "path": "evidence/archive/dic3/source/DESIGN_original.md",
+      "bytes": 14166,
+      "sha256": "618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19"
+    },
+    {
+      "path": "evidence/archive/dic3/source/Traffic_Assistant_Proposal_2026-11-03.pdf",
+      "bytes": 281764,
+      "sha256": "3f95b14f5d3c2ea7a434e0c898925f5a63c6ccfbc33e96a8d52fe7611761ca78"
+    },
+    {
+      "path": "evidence/archive/dic3/source/traffic_agent.c",
+      "bytes": 7357,
+      "sha256": "2a5d781524a20c6a88ec7fc30d40ea3c793ccccd29f7cfeabab7a7b413e34d9c"
+    },
+    {
+      "path": "evidence/archive/dic3/source/traffic_model.h",
+      "bytes": 976,
+      "sha256": "47ec8713863dc317c6e9f132e8fac21e264ec7788f778e96b3b9e2cde382269b"
+    },
+    {
+      "path": "evidence/archive/dic3/source_manifest.json",
+      "bytes": 1865,
+      "sha256": "90200f3d85991f569f444514e136f17b7ebe650ba108d197c2128f8f562c05ee"
+    },
+    {
+      "path": "evidence/current/audit_results.json",
+      "bytes": 64298,
+      "sha256": "b9122661cbcae83717afb0e9eb5317f5802f686bb616e69d783402595cfdb1e9"
+    },
+    {
+      "path": "evidence/current/host_18_pairs_recalculated.csv",
+      "bytes": 2724,
+      "sha256": "191aef42f48c2c942064554c2df6ed359738377000587d98bdaff9fb0fca9a42"
+    },
+    {
+      "path": "evidence/current/host_6_pairs_recalculated.csv",
+      "bytes": 1151,
+      "sha256": "08266f521e525f36d45998fe236ac63072bcfb7e8a3b73ed67b3741aa95035d1"
+    },
+    {
+      "path": "evidence/current/mcp_run.json",
+      "bytes": 30774,
+      "sha256": "99457eb7bcf5a3d02c5932c555c58681fed82e0609fc2ccf2307e60f288829b8"
+    },
+    {
+      "path": "evidence/current/openspec/active_changes.json",
+      "bytes": 520,
+      "sha256": "eea639c9c298a1789d02e8832cbadb79458818759b6fc39b1dc15150adda7412"
+    },
+    {
+      "path": "evidence/current/openspec/active_changes.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/current/openspec/active_changes.stdout.txt",
+      "bytes": 520,
+      "sha256": "eea639c9c298a1789d02e8832cbadb79458818759b6fc39b1dc15150adda7412"
+    },
+    {
+      "path": "evidence/current/openspec/dic4_status.json",
+      "bytes": 3488,
+      "sha256": "16a80c97b8e197c4126d510186ecad948c6d925f753a0b4e8593d1c9e1791b06"
+    },
+    {
+      "path": "evidence/current/openspec/dic4_status.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/current/openspec/dic4_status.stdout.txt",
+      "bytes": 3488,
+      "sha256": "16a80c97b8e197c4126d510186ecad948c6d925f753a0b4e8593d1c9e1791b06"
+    },
+    {
+      "path": "evidence/current/openspec/main_specs.json",
+      "bytes": 371,
+      "sha256": "08c509d0eadbe735665e40dfd501dc173b206ff8b69c8d25ae74a8b9162dd949"
+    },
+    {
+      "path": "evidence/current/openspec/main_specs.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/current/openspec/main_specs.stdout.txt",
+      "bytes": 371,
+      "sha256": "08c509d0eadbe735665e40dfd501dc173b206ff8b69c8d25ae74a8b9162dd949"
+    },
+    {
+      "path": "evidence/current/openspec/product_status.json",
+      "bytes": 4016,
+      "sha256": "ff2a9a4bb9f48693e697bab1b9fefcdff9e2ae459d0180b4dc0f776ca570fa54"
+    },
+    {
+      "path": "evidence/current/openspec/product_status.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/current/openspec/product_status.stdout.txt",
+      "bytes": 4016,
+      "sha256": "ff2a9a4bb9f48693e697bab1b9fefcdff9e2ae459d0180b4dc0f776ca570fa54"
+    },
+    {
+      "path": "evidence/current/openspec/run_manifest.json",
+      "bytes": 1287,
+      "sha256": "99eeb278cbb1595fc1eafaadb1350ae52660cc88ffa4826bed22a5b09cf052a4"
+    },
+    {
+      "path": "evidence/current/openspec/validate_all.json",
+      "bytes": 1142,
+      "sha256": "fef9522e78f81804d2978a59da7b99b32c108c7bb55f28d5995a391e88693ecb"
+    },
+    {
+      "path": "evidence/current/openspec/validate_all.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/current/openspec/validate_all.stdout.txt",
+      "bytes": 1142,
+      "sha256": "fef9522e78f81804d2978a59da7b99b32c108c7bb55f28d5995a391e88693ecb"
+    },
+    {
+      "path": "evidence/current/openspec/version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/current/openspec/version.stdout.txt",
+      "bytes": 6,
+      "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624"
+    },
+    {
+      "path": "evidence/current/openspec_preservation_check.json",
+      "bytes": 4044,
+      "sha256": "7955456567a079153ba1379ba5e319c7448ae7ceabd9a4b4dec9fb52bf8e01f9"
+    },
+    {
+      "path": "evidence/current/paper_compile/bibtex.stdout.log",
+      "bytes": 344,
+      "sha256": "1bc0224d5eaebcf8f695933da421b9a5515e008f53e8f3c0b1070f22723b948e"
+    },
+    {
+      "path": "evidence/current/paper_compile/main.log",
+      "bytes": 22202,
+      "sha256": "d278546cdd2db24ad7b2500b75e51aab2860419d86e543003a80811a245f87fd"
+    },
+    {
+      "path": "evidence/current/paper_compile/pdffonts.txt",
+      "bytes": 1880,
+      "sha256": "de9a99f4e60fc19c8171a19bb8f283b159a01eb8302d8c7e54828e141f8d6bb2"
+    },
+    {
+      "path": "evidence/current/paper_compile/pdflatex-pass1.stdout.log",
+      "bytes": 6896,
+      "sha256": "ffe6e7a7c2c2a1950581a42e9bee8ed2a1e26ce679c78b0f8f2eef20c1f113b7"
+    },
+    {
+      "path": "evidence/current/paper_compile/pdflatex-pass2.stdout.log",
+      "bytes": 6896,
+      "sha256": "ffe6e7a7c2c2a1950581a42e9bee8ed2a1e26ce679c78b0f8f2eef20c1f113b7"
+    },
+    {
+      "path": "evidence/current/paper_compile/pdflatex-pass3.stdout.log",
+      "bytes": 6896,
+      "sha256": "ffe6e7a7c2c2a1950581a42e9bee8ed2a1e26ce679c78b0f8f2eef20c1f113b7"
+    },
+    {
+      "path": "evidence/current/pdf_qa.json",
+      "bytes": 1621,
+      "sha256": "2b83a489f51fd0743f7b0db0fca6f7a3739c36c60436a48936ffd8770d0d7b1f"
+    },
+    {
+      "path": "latest.md",
+      "bytes": 1893,
+      "sha256": "4c0c1e4271f8b15adfa7d151c8f185c1d8594ad2eaa1b0ce1e9d1e69e7ffb712"
+    },
+    {
+      "path": "mcp/demo_client.py",
+      "bytes": 8502,
+      "sha256": "14c06e3fba8f9a0a973ca28749a86bda6d97f236d5754c8f21505001915cba84"
+    },
+    {
+      "path": "mcp/evidence_server.py",
+      "bytes": 4087,
+      "sha256": "58b72195cfe57ea61f7b625eec3d77fc646d3ffbf95c230d07fea13ad9e065b6"
+    },
+    {
+      "path": "mcp/requirements.txt",
+      "bytes": 12,
+      "sha256": "b1a0e8947a80d3222c56a9b748ee0e4f7f19ce3273c76db72da57b0ff7b105ca"
+    },
+    {
+      "path": "openspec/changes/archive/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/.openspec.yaml",
+      "bytes": 40,
+      "sha256": "3ea192d12c1ad3d96d8e6cfd6fddb23c8be77d85611385996b685b4736c117c0"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/design.md",
+      "bytes": 1012,
+      "sha256": "f47ca4cee21289fd58825eb051f4eae254984a81c61456c18975e460d3c12239"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/proposal.md",
+      "bytes": 839,
+      "sha256": "bb7aca09dcaa296a39e379329efcc52b93887ed3e3e86a05df49261ab717bc90"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/specs/proposal-documentation/spec.md",
+      "bytes": 1182,
+      "sha256": "5bd2690f236e35bb2466ce63f59ccaa804b0ae2e061b12cd72acc65af9aa15cd"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/tasks.md",
+      "bytes": 709,
+      "sha256": "029fda4c94c5bcfdad183df3c2d40fc4b33188bf9010b48c3e97379f8ac534c4"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/.openspec.yaml",
+      "bytes": 40,
+      "sha256": "3ea192d12c1ad3d96d8e6cfd6fddb23c8be77d85611385996b685b4736c117c0"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/design.md",
+      "bytes": 4055,
+      "sha256": "cc0d5e5375e092bbbc7ea78b50935a6dfb8320f1e237bd51174d5e762045e4b4"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/proposal.md",
+      "bytes": 1248,
+      "sha256": "536248108df4ea128951b27750c0b339d3476c914fdaeaa12bb192c27a957c80"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/data-qualification/spec.md",
+      "bytes": 1775,
+      "sha256": "3d979aca2dcebada3670b9a25d1cc1d439fab81194793808e7e312df9670dde1"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/decision-evidence/spec.md",
+      "bytes": 970,
+      "sha256": "3a7c6ceb03e7fd6772a4e4e79dcb53b153d77a001357c5437c55d488e566ab98"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/execution-verification/spec.md",
+      "bytes": 1425,
+      "sha256": "906deddb599ce09de54e50452cc12b49c2bd51de0223747dc99d1b44ee46a8a1"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/task-intake/spec.md",
+      "bytes": 883,
+      "sha256": "69acbbd048e01091f8f5bc9e2bfcacb1c58a387f83b0c36a87b608f7c0b2c968"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/task-reporting/spec.md",
+      "bytes": 1037,
+      "sha256": "f629bf0f3dc0f43f30b20e84246dbb446cc9a85764ccf4d4e302ea8657ddb1d1"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/tasks.md",
+      "bytes": 1098,
+      "sha256": "85e07c73f340dfd7a4b7485a1d3192aad815bbc48f948c3a1b82ea22e4a7baf4"
+    },
+    {
+      "path": "openspec/changes/prepare-ieee-conference-draft/.openspec.yaml",
+      "bytes": 40,
+      "sha256": "3c3c72cd1a100807c59ef8347538654b4d2d22269f59561c985b01cb44c39491"
+    },
+    {
+      "path": "openspec/changes/prepare-ieee-conference-draft/design.md",
+      "bytes": 4172,
+      "sha256": "35cba0674cf2e68c2ded3130f5c399f54726d44fdad858335b129208a45a292f"
+    },
+    {
+      "path": "openspec/changes/prepare-ieee-conference-draft/proposal.md",
+      "bytes": 1809,
+      "sha256": "ae16db1ebee3283b563b07af0596ebfa67f4bc279633e42cbab041d2c17076f8"
+    },
+    {
+      "path": "openspec/changes/prepare-ieee-conference-draft/specs/conference-draft/spec.md",
+      "bytes": 5802,
+      "sha256": "0e46df6ed2b50d1d5de816a60e18db2e309a2a36ff03e29b89856e95f048cc51"
+    },
+    {
+      "path": "openspec/changes/prepare-ieee-conference-draft/tasks.md",
+      "bytes": 1570,
+      "sha256": "f2922e719e1f166417b382fc03f2cb9af9457de9f7b2ce846c2698614fe157cb"
+    },
+    {
+      "path": "openspec/config.yaml",
+      "bytes": 1158,
+      "sha256": "8212c8e9159c8e42ddc2c74be921a175b9d900b45d5cc82fc7ec62ed1ea54f44"
+    },
+    {
+      "path": "openspec/specs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openspec/specs/paired-evaluation/spec.md",
+      "bytes": 1740,
+      "sha256": "c4887581bc5261fe880f17121e937be57184c247446a9d185056d61c9a01a8e7"
+    },
+    {
+      "path": "openspec/specs/proposal-documentation/spec.md",
+      "bytes": 1421,
+      "sha256": "a2d0eba334ffeb1fc55a7253cc99c8b36a6eeecb78a6438b51f8e7067cc93945"
+    },
+    {
+      "path": "openspec/specs/traffic-control-core/spec.md",
+      "bytes": 2012,
+      "sha256": "e9801fcc53b88f568827f4a457649e008caf9cea5203fbb403e1c7dbf39920af"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 29850,
+      "sha256": "68206017188c42eec5db4cbc11782ce5620e72062444c21b85aa6a54f4bf8e4d"
+    },
+    {
+      "path": "package.json",
+      "bytes": 480,
+      "sha256": "bcc793020553b317ddef47b25efc0fa681008b96c8452ec4c79c992711bb1bbe"
+    },
+    {
+      "path": "paper/IEEEtran.bst",
+      "bytes": 57748,
+      "sha256": "314f0ece704568faf827011bac498650691b2b5ee06320720830e782416d5a5f"
+    },
+    {
+      "path": "paper/IEEEtran.cls",
+      "bytes": 281957,
+      "sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7"
+    },
+    {
+      "path": "paper/figures/architecture.pdf",
+      "bytes": 22779,
+      "sha256": "10928068075c33ae29f21c5149767647ed5e4c5d1c04f88805223768450bd0b4"
+    },
+    {
+      "path": "paper/figures/scenario_changes.pdf",
+      "bytes": 17592,
+      "sha256": "f53c4537319362a6c4095d30c1f665e8db033167af188de63f3a009386f0859e"
+    },
+    {
+      "path": "paper/main.pdf",
+      "bytes": 233796,
+      "sha256": "39ce3f72c6e18e78e37c585043c5e9eb9fde4c0212a65589ecfba3055823c243"
+    },
+    {
+      "path": "paper/main.tex",
+      "bytes": 23157,
+      "sha256": "7f967c16ad7c5c057719ffdce42b6bbaed709b213947b2dbb1a6f06eeeb4716d"
+    },
+    {
+      "path": "paper/references.bib",
+      "bytes": 4335,
+      "sha256": "b46f67d35073b42ad14bdd832b414e825497360487d2d7197bc898bff49bdb00"
+    },
+    {
+      "path": "scripts/audit_evidence.py",
+      "bytes": 18014,
+      "sha256": "3336e6e75f5328fbe849c21ae51d16728ed3300ab1fc31fbcc7d3d9054ad8229"
+    },
+    {
+      "path": "scripts/build_paper.py",
+      "bytes": 982,
+      "sha256": "daa5a532b52f1015b6137025dc7146a169d0959607c684c2e6023e47594886d7"
+    },
+    {
+      "path": "scripts/make_figures.py",
+      "bytes": 7664,
+      "sha256": "e6948b92d4ec6f8864124c412e02f043cfb99a1f42f7a040ab568f24462dac76"
+    },
+    {
+      "path": "scripts/package_submission.py",
+      "bytes": 3937,
+      "sha256": "204c9ae0a1c29e0dd78a33bf4001b27959873dae76c51838f89e900d7011a2eb"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 20,
+      "sha256": "a483ec8c27a00e5f54fb7e90011b07afc6ded69e0446304e913297f772852771"
+    },
+    {
+      "path": "scripts/validate_openspec.py",
+      "bytes": 3402,
+      "sha256": "e454b58a906e863399fbd0bcf994d8a73acf43127cee0379bd520a43b841c018"
+    }
+  ]
+}

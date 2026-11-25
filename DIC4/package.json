@@ -1,0 +1,15 @@
+{
+  "name": "traffic-assistant-dic4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DIC4 IEEE conference draft and evidence-traceable OpenSpec project",
+  "devDependencies": {
+    "@fission-ai/openspec": "2.0.0"
+  },
+  "scripts": {
+    "spec:validate": "openspec validate --all --strict --no-interactive",
+    "spec:list": "openspec list --specs",
+    "spec:changes": "openspec list",
+    "spec:status": "openspec status --change prepare-ieee-conference-draft"
+  }
+}
