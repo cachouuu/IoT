@@ -1,0 +1,66 @@
+{
+  "checked_at_utc": "2026-11-25T16:11:41.422972+00:00",
+  "paper_sha256": "39ce3f72c6e18e78e37c585043c5e9eb9fde4c0212a65589ecfba3055823c243",
+  "page_count": 5,
+  "page_size_points": [
+    [
+      612.0,
+      792.0
+    ],
+    [
+      612.0,
+      792.0
+    ],
+    [
+      612.0,
+      792.0
+    ],
+    [
+      612.0,
+      792.0
+    ],
+    [
+      612.0,
+      792.0
+    ]
+  ],
+  "compilation": "PASS: pdfLaTeX, BibTeX, subsequent pdfLaTeX passes",
+  "overfull_box_count": 0,
+  "undefined_reference_warning": false,
+  "missing_character_warning": false,
+  "all_fonts_embedded": true,
+  "visual_review": {
+    "status": "PASS",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "render_dpi": 105,
+    "checked": [
+      "title and author",
+      "two-column reading order",
+      "two figures and three tables",
+      "equations",
+      "reference wrapping",
+      "margins and clipping"
+    ],
+    "architecture_label": "Tree / rule fallback"
+  },
+  "remaining_nonblocking_log_messages": [
+    "Underfull hbox messages in justified text and references",
+    "epstopdf shell escape disabled; all supplied figures already PDF"
+  ],
+  "author_review": "Formal English author name confirmed directly by the user as Po Sheng Wei on 2026-11-26 (Asia/Taipei).",
+  "author_revision": {
+    "author": "Po Sheng Wei",
+    "rendered_pages_inspected": [
+      1
+    ],
+    "page_count": 5,
+    "text_comparison": "Only the author name changed; extracted text on pages 2–5 is identical to the fully reviewed previous version.",
+    "layout": "PASS; author line fits and no overflow warnings."
+  }
+}

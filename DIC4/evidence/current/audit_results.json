@@ -1,0 +1,2146 @@
+{
+  "status": "PASS",
+  "kind": "independent_recalculation_of_archived_DIC3_records",
+  "new_training": false,
+  "new_firmware_simulation": false,
+  "new_model_inference": false,
+  "new_hardware_run": false,
+  "raw_hardware_trace_revalidation": false,
+  "checked_record_count": 54,
+  "checks_passed": 164,
+  "checks_total": 164,
+  "host_18_pair_summary": {
+    "arrived_vehicles": 7670,
+    "fixed_qvs": 399954,
+    "model_qvs": 326830,
+    "fixed_departed": 6428,
+    "model_departed": 6689,
+    "fixed_total_wait_departed_seconds": 277575,
+    "model_total_wait_departed_seconds": 188123,
+    "fixed_end_queue_ns": 598,
+    "fixed_end_queue_ew": 644,
+    "model_end_queue_ns": 276,
+    "model_end_queue_ew": 705,
+    "model_decisions": 329,
+    "model_fallbacks": 31,
+    "pairs": 18,
+    "qvs_delta": -73124,
+    "qvs_relative_change_percent": -18.28310255679403,
+    "improved": 13,
+    "regressed": 5,
+    "unchanged": 0,
+    "worst_relative_change_case": {
+      "scenario": "bursty",
+      "seed": 2779054082,
+      "arrived_vehicles": 317,
+      "fixed_qvs": 2881,
+      "model_qvs": 3517,
+      "qvs_delta": 636,
+      "qvs_relative_change_percent": 22.075668170774037,
+      "fixed_departed": 317,
+      "model_departed": 317,
+      "fixed_total_wait_departed_seconds": 2881,
+      "model_total_wait_departed_seconds": 3517,
+      "fixed_mean_wait_departed_seconds": 9.088328075709779,
+      "model_mean_wait_departed_seconds": 11.094637223974763,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    "best_relative_change_case": {
+      "scenario": "ew_heavy",
+      "seed": 2779054083,
+      "arrived_vehicles": 370,
+      "fixed_qvs": 14052,
+      "model_qvs": 2743,
+      "qvs_delta": -11309,
+      "qvs_relative_change_percent": -80.47964702533447,
+      "fixed_departed": 333,
+      "model_departed": 361,
+      "fixed_total_wait_departed_seconds": 12641,
+      "model_total_wait_departed_seconds": 2642,
+      "fixed_mean_wait_departed_seconds": 37.96096096096096,
+      "model_mean_wait_departed_seconds": 7.3185595567867034,
+      "fixed_end_queue_ns": 6,
+      "fixed_end_queue_ew": 31,
+      "model_end_queue_ns": 8,
+      "model_end_queue_ew": 1,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    "weighted_mean_wait_departed_fixed_seconds": 43.18217174859988,
+    "weighted_mean_wait_departed_model_seconds": 28.124233816714007
+  },
+  "host_18_pairs": [
+    {
+      "scenario": "balanced",
+      "seed": 2779054081,
+      "arrived_vehicles": 357,
+      "fixed_qvs": 3035,
+      "model_qvs": 3263,
+      "qvs_delta": 228,
+      "qvs_relative_change_percent": 7.512355848434926,
+      "fixed_departed": 352,
+      "model_departed": 352,
+      "fixed_total_wait_departed_seconds": 2998,
+      "model_total_wait_departed_seconds": 3226,
+      "fixed_mean_wait_departed_seconds": 8.517045454545455,
+      "model_mean_wait_departed_seconds": 9.164772727272727,
+      "fixed_end_queue_ns": 3,
+      "fixed_end_queue_ew": 2,
+      "model_end_queue_ns": 3,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "balanced",
+      "seed": 2779054082,
+      "arrived_vehicles": 339,
+      "fixed_qvs": 2714,
+      "model_qvs": 2674,
+      "qvs_delta": -40,
+      "qvs_relative_change_percent": -1.4738393515106853,
+      "fixed_departed": 336,
+      "model_departed": 336,
+      "fixed_total_wait_departed_seconds": 2683,
+      "model_total_wait_departed_seconds": 2643,
+      "fixed_mean_wait_departed_seconds": 7.9851190476190474,
+      "model_mean_wait_departed_seconds": 7.866071428571429,
+      "fixed_end_queue_ns": 3,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 3,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "balanced",
+      "seed": 2779054083,
+      "arrived_vehicles": 363,
+      "fixed_qvs": 3019,
+      "model_qvs": 3421,
+      "qvs_delta": 402,
+      "qvs_relative_change_percent": 13.31566743954952,
+      "fixed_departed": 351,
+      "model_departed": 353,
+      "fixed_total_wait_departed_seconds": 2876,
+      "model_total_wait_departed_seconds": 3322,
+      "fixed_mean_wait_departed_seconds": 8.193732193732194,
+      "model_mean_wait_departed_seconds": 9.410764872521247,
+      "fixed_end_queue_ns": 11,
+      "fixed_end_queue_ew": 1,
+      "model_end_queue_ns": 9,
+      "model_end_queue_ew": 1,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ns_heavy",
+      "seed": 2779054081,
+      "arrived_vehicles": 371,
+      "fixed_qvs": 11815,
+      "model_qvs": 3202,
+      "qvs_delta": -8613,
+      "qvs_relative_change_percent": -72.8988573846805,
+      "fixed_departed": 330,
+      "model_departed": 366,
+      "fixed_total_wait_departed_seconds": 9595,
+      "model_total_wait_departed_seconds": 3163,
+      "fixed_mean_wait_departed_seconds": 29.075757575757574,
+      "model_mean_wait_departed_seconds": 8.642076502732241,
+      "fixed_end_queue_ns": 41,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 5,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ns_heavy",
+      "seed": 2779054082,
+      "arrived_vehicles": 357,
+      "fixed_qvs": 7942,
+      "model_qvs": 2763,
+      "qvs_delta": -5179,
+      "qvs_relative_change_percent": -65.21027449005288,
+      "fixed_departed": 337,
+      "model_departed": 350,
+      "fixed_total_wait_departed_seconds": 7502,
+      "model_total_wait_departed_seconds": 2720,
+      "fixed_mean_wait_departed_seconds": 22.26112759643917,
+      "model_mean_wait_departed_seconds": 7.771428571428571,
+      "fixed_end_queue_ns": 20,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 7,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ns_heavy",
+      "seed": 2779054083,
+      "arrived_vehicles": 379,
+      "fixed_qvs": 13768,
+      "model_qvs": 4140,
+      "qvs_delta": -9628,
+      "qvs_relative_change_percent": -69.9302730970366,
+      "fixed_departed": 326,
+      "model_departed": 372,
+      "fixed_total_wait_departed_seconds": 10997,
+      "model_total_wait_departed_seconds": 4090,
+      "fixed_mean_wait_departed_seconds": 33.73312883435583,
+      "model_mean_wait_departed_seconds": 10.994623655913978,
+      "fixed_end_queue_ns": 53,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 7,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ew_heavy",
+      "seed": 2779054081,
+      "arrived_vehicles": 386,
+      "fixed_qvs": 14972,
+      "model_qvs": 3126,
+      "qvs_delta": -11846,
+      "qvs_relative_change_percent": -79.12102591504141,
+      "fixed_departed": 341,
+      "model_departed": 382,
+      "fixed_total_wait_departed_seconds": 12652,
+      "model_total_wait_departed_seconds": 3089,
+      "fixed_mean_wait_departed_seconds": 37.10263929618768,
+      "model_mean_wait_departed_seconds": 8.086387434554974,
+      "fixed_end_queue_ns": 1,
+      "fixed_end_queue_ew": 44,
+      "model_end_queue_ns": 2,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ew_heavy",
+      "seed": 2779054082,
+      "arrived_vehicles": 352,
+      "fixed_qvs": 12166,
+      "model_qvs": 2399,
+      "qvs_delta": -9767,
+      "qvs_relative_change_percent": -80.28111129376953,
+      "fixed_departed": 317,
+      "model_departed": 352,
+      "fixed_total_wait_departed_seconds": 10824,
+      "model_total_wait_departed_seconds": 2399,
+      "fixed_mean_wait_departed_seconds": 34.14511041009464,
+      "model_mean_wait_departed_seconds": 6.815340909090909,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 35,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ew_heavy",
+      "seed": 2779054083,
+      "arrived_vehicles": 370,
+      "fixed_qvs": 14052,
+      "model_qvs": 2743,
+      "qvs_delta": -11309,
+      "qvs_relative_change_percent": -80.47964702533447,
+      "fixed_departed": 333,
+      "model_departed": 361,
+      "fixed_total_wait_departed_seconds": 12641,
+      "model_total_wait_departed_seconds": 2642,
+      "fixed_mean_wait_departed_seconds": 37.96096096096096,
+      "model_mean_wait_departed_seconds": 7.3185595567867034,
+      "fixed_end_queue_ns": 6,
+      "fixed_end_queue_ew": 31,
+      "model_end_queue_ns": 8,
+      "model_end_queue_ew": 1,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "direction_switch",
+      "seed": 2779054081,
+      "arrived_vehicles": 361,
+      "fixed_qvs": 10369,
+      "model_qvs": 3089,
+      "qvs_delta": -7280,
+      "qvs_relative_change_percent": -70.20927765454721,
+      "fixed_departed": 331,
+      "model_departed": 359,
+      "fixed_total_wait_departed_seconds": 9343,
+      "model_total_wait_departed_seconds": 3084,
+      "fixed_mean_wait_departed_seconds": 28.226586102719033,
+      "model_mean_wait_departed_seconds": 8.590529247910863,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 30,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "direction_switch",
+      "seed": 2779054082,
+      "arrived_vehicles": 348,
+      "fixed_qvs": 8464,
+      "model_qvs": 2546,
+      "qvs_delta": -5918,
+      "qvs_relative_change_percent": -69.91965973534971,
+      "fixed_departed": 326,
+      "model_departed": 348,
+      "fixed_total_wait_departed_seconds": 7891,
+      "model_total_wait_departed_seconds": 2546,
+      "fixed_mean_wait_departed_seconds": 24.20552147239264,
+      "model_mean_wait_departed_seconds": 7.316091954022989,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 22,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "direction_switch",
+      "seed": 2779054083,
+      "arrived_vehicles": 356,
+      "fixed_qvs": 8150,
+      "model_qvs": 3014,
+      "qvs_delta": -5136,
+      "qvs_relative_change_percent": -63.01840490797546,
+      "fixed_departed": 341,
+      "model_departed": 351,
+      "fixed_total_wait_departed_seconds": 7920,
+      "model_total_wait_departed_seconds": 2990,
+      "fixed_mean_wait_departed_seconds": 23.225806451612904,
+      "model_mean_wait_departed_seconds": 8.518518518518519,
+      "fixed_end_queue_ns": 4,
+      "fixed_end_queue_ew": 11,
+      "model_end_queue_ns": 4,
+      "model_end_queue_ew": 1,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "bursty",
+      "seed": 2779054081,
+      "arrived_vehicles": 341,
+      "fixed_qvs": 3485,
+      "model_qvs": 4126,
+      "qvs_delta": 641,
+      "qvs_relative_change_percent": 18.393113342898136,
+      "fixed_departed": 339,
+      "model_departed": 339,
+      "fixed_total_wait_departed_seconds": 3480,
+      "model_total_wait_departed_seconds": 4121,
+      "fixed_mean_wait_departed_seconds": 10.265486725663717,
+      "model_mean_wait_departed_seconds": 12.156342182890855,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 2,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "bursty",
+      "seed": 2779054082,
+      "arrived_vehicles": 317,
+      "fixed_qvs": 2881,
+      "model_qvs": 3517,
+      "qvs_delta": 636,
+      "qvs_relative_change_percent": 22.075668170774037,
+      "fixed_departed": 317,
+      "model_departed": 317,
+      "fixed_total_wait_departed_seconds": 2881,
+      "model_total_wait_departed_seconds": 3517,
+      "fixed_mean_wait_departed_seconds": 9.088328075709779,
+      "model_mean_wait_departed_seconds": 11.094637223974763,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "bursty",
+      "seed": 2779054083,
+      "arrived_vehicles": 328,
+      "fixed_qvs": 3257,
+      "model_qvs": 3626,
+      "qvs_delta": 369,
+      "qvs_relative_change_percent": 11.329444273871662,
+      "fixed_departed": 323,
+      "model_departed": 323,
+      "fixed_total_wait_departed_seconds": 3233,
+      "model_total_wait_departed_seconds": 3602,
+      "fixed_mean_wait_departed_seconds": 10.009287925696594,
+      "model_mean_wait_departed_seconds": 11.15170278637771,
+      "fixed_end_queue_ns": 4,
+      "fixed_end_queue_ew": 1,
+      "model_end_queue_ns": 4,
+      "model_end_queue_ew": 1,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "overload",
+      "seed": 2779054081,
+      "arrived_vehicles": 781,
+      "fixed_qvs": 93817,
+      "model_qvs": 93589,
+      "qvs_delta": -228,
+      "qvs_relative_change_percent": -0.24302631719198012,
+      "fixed_departed": 475,
+      "model_departed": 475,
+      "fixed_total_wait_departed_seconds": 56483,
+      "model_total_wait_departed_seconds": 47749,
+      "fixed_mean_wait_departed_seconds": 118.91157894736843,
+      "model_mean_wait_departed_seconds": 100.52421052631578,
+      "fixed_end_queue_ns": 155,
+      "fixed_end_queue_ew": 151,
+      "model_end_queue_ns": 79,
+      "model_end_queue_ew": 227,
+      "model_decisions": 10,
+      "model_fallbacks": 10
+    },
+    {
+      "scenario": "overload",
+      "seed": 2779054082,
+      "arrived_vehicles": 773,
+      "fixed_qvs": 90336,
+      "model_qvs": 90108,
+      "qvs_delta": -228,
+      "qvs_relative_change_percent": -0.25239107332624866,
+      "fixed_departed": 476,
+      "model_departed": 476,
+      "fixed_total_wait_departed_seconds": 55158,
+      "model_total_wait_departed_seconds": 45070,
+      "fixed_mean_wait_departed_seconds": 115.8781512605042,
+      "model_mean_wait_departed_seconds": 94.68487394957984,
+      "fixed_end_queue_ns": 136,
+      "fixed_end_queue_ew": 161,
+      "model_end_queue_ns": 60,
+      "model_end_queue_ew": 237,
+      "model_decisions": 10,
+      "model_fallbacks": 10
+    },
+    {
+      "scenario": "overload",
+      "seed": 2779054083,
+      "arrived_vehicles": 791,
+      "fixed_qvs": 95712,
+      "model_qvs": 95484,
+      "qvs_delta": -228,
+      "qvs_relative_change_percent": -0.2382146439317954,
+      "fixed_departed": 477,
+      "model_departed": 477,
+      "fixed_total_wait_departed_seconds": 58418,
+      "model_total_wait_departed_seconds": 48150,
+      "fixed_mean_wait_departed_seconds": 122.46960167714884,
+      "model_mean_wait_departed_seconds": 100.94339622641509,
+      "fixed_end_queue_ns": 161,
+      "fixed_end_queue_ew": 153,
+      "model_end_queue_ns": 85,
+      "model_end_queue_ew": 229,
+      "model_decisions": 9,
+      "model_fallbacks": 11
+    }
+  ],
+  "host_18_pair_scenario_aggregates": [
+    {
+      "scenario": "balanced",
+      "arrived_vehicles": 1059,
+      "fixed_qvs": 8768,
+      "model_qvs": 9358,
+      "fixed_departed": 1039,
+      "model_departed": 1041,
+      "fixed_total_wait_departed_seconds": 8557,
+      "model_total_wait_departed_seconds": 9191,
+      "fixed_end_queue_ns": 17,
+      "fixed_end_queue_ew": 3,
+      "model_end_queue_ns": 15,
+      "model_end_queue_ew": 3,
+      "model_decisions": 60,
+      "model_fallbacks": 0,
+      "pairs": 3,
+      "qvs_delta": 590,
+      "qvs_relative_change_percent": 6.729014598540146,
+      "improved": 1,
+      "regressed": 2,
+      "unchanged": 0,
+      "worst_relative_change_case": {
+        "scenario": "balanced",
+        "seed": 2779054083,
+        "arrived_vehicles": 363,
+        "fixed_qvs": 3019,
+        "model_qvs": 3421,
+        "qvs_delta": 402,
+        "qvs_relative_change_percent": 13.31566743954952,
+        "fixed_departed": 351,
+        "model_departed": 353,
+        "fixed_total_wait_departed_seconds": 2876,
+        "model_total_wait_departed_seconds": 3322,
+        "fixed_mean_wait_departed_seconds": 8.193732193732194,
+        "model_mean_wait_departed_seconds": 9.410764872521247,
+        "fixed_end_queue_ns": 11,
+        "fixed_end_queue_ew": 1,
+        "model_end_queue_ns": 9,
+        "model_end_queue_ew": 1,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "best_relative_change_case": {
+        "scenario": "balanced",
+        "seed": 2779054082,
+        "arrived_vehicles": 339,
+        "fixed_qvs": 2714,
+        "model_qvs": 2674,
+        "qvs_delta": -40,
+        "qvs_relative_change_percent": -1.4738393515106853,
+        "fixed_departed": 336,
+        "model_departed": 336,
+        "fixed_total_wait_departed_seconds": 2683,
+        "model_total_wait_departed_seconds": 2643,
+        "fixed_mean_wait_departed_seconds": 7.9851190476190474,
+        "model_mean_wait_departed_seconds": 7.866071428571429,
+        "fixed_end_queue_ns": 3,
+        "fixed_end_queue_ew": 0,
+        "model_end_queue_ns": 3,
+        "model_end_queue_ew": 0,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "weighted_mean_wait_departed_fixed_seconds": 8.23580365736285,
+      "weighted_mean_wait_departed_model_seconds": 8.829010566762728
+    },
+    {
+      "scenario": "ns_heavy",
+      "arrived_vehicles": 1107,
+      "fixed_qvs": 33525,
+      "model_qvs": 10105,
+      "fixed_departed": 993,
+      "model_departed": 1088,
+      "fixed_total_wait_departed_seconds": 28094,
+      "model_total_wait_departed_seconds": 9973,
+      "fixed_end_queue_ns": 114,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 19,
+      "model_end_queue_ew": 0,
+      "model_decisions": 60,
+      "model_fallbacks": 0,
+      "pairs": 3,
+      "qvs_delta": -23420,
+      "qvs_relative_change_percent": -69.85831469052945,
+      "improved": 3,
+      "regressed": 0,
+      "unchanged": 0,
+      "worst_relative_change_case": {
+        "scenario": "ns_heavy",
+        "seed": 2779054082,
+        "arrived_vehicles": 357,
+        "fixed_qvs": 7942,
+        "model_qvs": 2763,
+        "qvs_delta": -5179,
+        "qvs_relative_change_percent": -65.21027449005288,
+        "fixed_departed": 337,
+        "model_departed": 350,
+        "fixed_total_wait_departed_seconds": 7502,
+        "model_total_wait_departed_seconds": 2720,
+        "fixed_mean_wait_departed_seconds": 22.26112759643917,
+        "model_mean_wait_departed_seconds": 7.771428571428571,
+        "fixed_end_queue_ns": 20,
+        "fixed_end_queue_ew": 0,
+        "model_end_queue_ns": 7,
+        "model_end_queue_ew": 0,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "best_relative_change_case": {
+        "scenario": "ns_heavy",
+        "seed": 2779054081,
+        "arrived_vehicles": 371,
+        "fixed_qvs": 11815,
+        "model_qvs": 3202,
+        "qvs_delta": -8613,
+        "qvs_relative_change_percent": -72.8988573846805,
+        "fixed_departed": 330,
+        "model_departed": 366,
+        "fixed_total_wait_departed_seconds": 9595,
+        "model_total_wait_departed_seconds": 3163,
+        "fixed_mean_wait_departed_seconds": 29.075757575757574,
+        "model_mean_wait_departed_seconds": 8.642076502732241,
+        "fixed_end_queue_ns": 41,
+        "fixed_end_queue_ew": 0,
+        "model_end_queue_ns": 5,
+        "model_end_queue_ew": 0,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "weighted_mean_wait_departed_fixed_seconds": 28.2920443101712,
+      "weighted_mean_wait_departed_model_seconds": 9.166360294117647
+    },
+    {
+      "scenario": "ew_heavy",
+      "arrived_vehicles": 1108,
+      "fixed_qvs": 41190,
+      "model_qvs": 8268,
+      "fixed_departed": 991,
+      "model_departed": 1095,
+      "fixed_total_wait_departed_seconds": 36117,
+      "model_total_wait_departed_seconds": 8130,
+      "fixed_end_queue_ns": 7,
+      "fixed_end_queue_ew": 110,
+      "model_end_queue_ns": 10,
+      "model_end_queue_ew": 3,
+      "model_decisions": 60,
+      "model_fallbacks": 0,
+      "pairs": 3,
+      "qvs_delta": -32922,
+      "qvs_relative_change_percent": -79.92716678805536,
+      "improved": 3,
+      "regressed": 0,
+      "unchanged": 0,
+      "worst_relative_change_case": {
+        "scenario": "ew_heavy",
+        "seed": 2779054081,
+        "arrived_vehicles": 386,
+        "fixed_qvs": 14972,
+        "model_qvs": 3126,
+        "qvs_delta": -11846,
+        "qvs_relative_change_percent": -79.12102591504141,
+        "fixed_departed": 341,
+        "model_departed": 382,
+        "fixed_total_wait_departed_seconds": 12652,
+        "model_total_wait_departed_seconds": 3089,
+        "fixed_mean_wait_departed_seconds": 37.10263929618768,
+        "model_mean_wait_departed_seconds": 8.086387434554974,
+        "fixed_end_queue_ns": 1,
+        "fixed_end_queue_ew": 44,
+        "model_end_queue_ns": 2,
+        "model_end_queue_ew": 2,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "best_relative_change_case": {
+        "scenario": "ew_heavy",
+        "seed": 2779054083,
+        "arrived_vehicles": 370,
+        "fixed_qvs": 14052,
+        "model_qvs": 2743,
+        "qvs_delta": -11309,
+        "qvs_relative_change_percent": -80.47964702533447,
+        "fixed_departed": 333,
+        "model_departed": 361,
+        "fixed_total_wait_departed_seconds": 12641,
+        "model_total_wait_departed_seconds": 2642,
+        "fixed_mean_wait_departed_seconds": 37.96096096096096,
+        "model_mean_wait_departed_seconds": 7.3185595567867034,
+        "fixed_end_queue_ns": 6,
+        "fixed_end_queue_ew": 31,
+        "model_end_queue_ns": 8,
+        "model_end_queue_ew": 1,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "weighted_mean_wait_departed_fixed_seconds": 36.44500504540868,
+      "weighted_mean_wait_departed_model_seconds": 7.424657534246576
+    },
+    {
+      "scenario": "direction_switch",
+      "arrived_vehicles": 1065,
+      "fixed_qvs": 26983,
+      "model_qvs": 8649,
+      "fixed_departed": 998,
+      "model_departed": 1058,
+      "fixed_total_wait_departed_seconds": 25154,
+      "model_total_wait_departed_seconds": 8620,
+      "fixed_end_queue_ns": 4,
+      "fixed_end_queue_ew": 63,
+      "model_end_queue_ns": 4,
+      "model_end_queue_ew": 3,
+      "model_decisions": 60,
+      "model_fallbacks": 0,
+      "pairs": 3,
+      "qvs_delta": -18334,
+      "qvs_relative_change_percent": -67.94648482377794,
+      "improved": 3,
+      "regressed": 0,
+      "unchanged": 0,
+      "worst_relative_change_case": {
+        "scenario": "direction_switch",
+        "seed": 2779054083,
+        "arrived_vehicles": 356,
+        "fixed_qvs": 8150,
+        "model_qvs": 3014,
+        "qvs_delta": -5136,
+        "qvs_relative_change_percent": -63.01840490797546,
+        "fixed_departed": 341,
+        "model_departed": 351,
+        "fixed_total_wait_departed_seconds": 7920,
+        "model_total_wait_departed_seconds": 2990,
+        "fixed_mean_wait_departed_seconds": 23.225806451612904,
+        "model_mean_wait_departed_seconds": 8.518518518518519,
+        "fixed_end_queue_ns": 4,
+        "fixed_end_queue_ew": 11,
+        "model_end_queue_ns": 4,
+        "model_end_queue_ew": 1,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "best_relative_change_case": {
+        "scenario": "direction_switch",
+        "seed": 2779054081,
+        "arrived_vehicles": 361,
+        "fixed_qvs": 10369,
+        "model_qvs": 3089,
+        "qvs_delta": -7280,
+        "qvs_relative_change_percent": -70.20927765454721,
+        "fixed_departed": 331,
+        "model_departed": 359,
+        "fixed_total_wait_departed_seconds": 9343,
+        "model_total_wait_departed_seconds": 3084,
+        "fixed_mean_wait_departed_seconds": 28.226586102719033,
+        "model_mean_wait_departed_seconds": 8.590529247910863,
+        "fixed_end_queue_ns": 0,
+        "fixed_end_queue_ew": 30,
+        "model_end_queue_ns": 0,
+        "model_end_queue_ew": 2,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "weighted_mean_wait_departed_fixed_seconds": 25.204408817635272,
+      "weighted_mean_wait_departed_model_seconds": 8.147448015122873
+    },
+    {
+      "scenario": "bursty",
+      "arrived_vehicles": 986,
+      "fixed_qvs": 9623,
+      "model_qvs": 11269,
+      "fixed_departed": 979,
+      "model_departed": 979,
+      "fixed_total_wait_departed_seconds": 9594,
+      "model_total_wait_departed_seconds": 11240,
+      "fixed_end_queue_ns": 4,
+      "fixed_end_queue_ew": 3,
+      "model_end_queue_ns": 4,
+      "model_end_queue_ew": 3,
+      "model_decisions": 60,
+      "model_fallbacks": 0,
+      "pairs": 3,
+      "qvs_delta": 1646,
+      "qvs_relative_change_percent": 17.104852956458483,
+      "improved": 0,
+      "regressed": 3,
+      "unchanged": 0,
+      "worst_relative_change_case": {
+        "scenario": "bursty",
+        "seed": 2779054082,
+        "arrived_vehicles": 317,
+        "fixed_qvs": 2881,
+        "model_qvs": 3517,
+        "qvs_delta": 636,
+        "qvs_relative_change_percent": 22.075668170774037,
+        "fixed_departed": 317,
+        "model_departed": 317,
+        "fixed_total_wait_departed_seconds": 2881,
+        "model_total_wait_departed_seconds": 3517,
+        "fixed_mean_wait_departed_seconds": 9.088328075709779,
+        "model_mean_wait_departed_seconds": 11.094637223974763,
+        "fixed_end_queue_ns": 0,
+        "fixed_end_queue_ew": 0,
+        "model_end_queue_ns": 0,
+        "model_end_queue_ew": 0,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "best_relative_change_case": {
+        "scenario": "bursty",
+        "seed": 2779054083,
+        "arrived_vehicles": 328,
+        "fixed_qvs": 3257,
+        "model_qvs": 3626,
+        "qvs_delta": 369,
+        "qvs_relative_change_percent": 11.329444273871662,
+        "fixed_departed": 323,
+        "model_departed": 323,
+        "fixed_total_wait_departed_seconds": 3233,
+        "model_total_wait_departed_seconds": 3602,
+        "fixed_mean_wait_departed_seconds": 10.009287925696594,
+        "model_mean_wait_departed_seconds": 11.15170278637771,
+        "fixed_end_queue_ns": 4,
+        "fixed_end_queue_ew": 1,
+        "model_end_queue_ns": 4,
+        "model_end_queue_ew": 1,
+        "model_decisions": 20,
+        "model_fallbacks": 0
+      },
+      "weighted_mean_wait_departed_fixed_seconds": 9.79979570990807,
+      "weighted_mean_wait_departed_model_seconds": 11.481103166496425
+    },
+    {
+      "scenario": "overload",
+      "arrived_vehicles": 2345,
+      "fixed_qvs": 279865,
+      "model_qvs": 279181,
+      "fixed_departed": 1428,
+      "model_departed": 1428,
+      "fixed_total_wait_departed_seconds": 170059,
+      "model_total_wait_departed_seconds": 140969,
+      "fixed_end_queue_ns": 452,
+      "fixed_end_queue_ew": 465,
+      "model_end_queue_ns": 224,
+      "model_end_queue_ew": 693,
+      "model_decisions": 29,
+      "model_fallbacks": 31,
+      "pairs": 3,
+      "qvs_delta": -684,
+      "qvs_relative_change_percent": -0.24440355171243278,
+      "improved": 3,
+      "regressed": 0,
+      "unchanged": 0,
+      "worst_relative_change_case": {
+        "scenario": "overload",
+        "seed": 2779054083,
+        "arrived_vehicles": 791,
+        "fixed_qvs": 95712,
+        "model_qvs": 95484,
+        "qvs_delta": -228,
+        "qvs_relative_change_percent": -0.2382146439317954,
+        "fixed_departed": 477,
+        "model_departed": 477,
+        "fixed_total_wait_departed_seconds": 58418,
+        "model_total_wait_departed_seconds": 48150,
+        "fixed_mean_wait_departed_seconds": 122.46960167714884,
+        "model_mean_wait_departed_seconds": 100.94339622641509,
+        "fixed_end_queue_ns": 161,
+        "fixed_end_queue_ew": 153,
+        "model_end_queue_ns": 85,
+        "model_end_queue_ew": 229,
+        "model_decisions": 9,
+        "model_fallbacks": 11
+      },
+      "best_relative_change_case": {
+        "scenario": "overload",
+        "seed": 2779054082,
+        "arrived_vehicles": 773,
+        "fixed_qvs": 90336,
+        "model_qvs": 90108,
+        "qvs_delta": -228,
+        "qvs_relative_change_percent": -0.25239107332624866,
+        "fixed_departed": 476,
+        "model_departed": 476,
+        "fixed_total_wait_departed_seconds": 55158,
+        "model_total_wait_departed_seconds": 45070,
+        "fixed_mean_wait_departed_seconds": 115.8781512605042,
+        "model_mean_wait_departed_seconds": 94.68487394957984,
+        "fixed_end_queue_ns": 136,
+        "fixed_end_queue_ew": 161,
+        "model_end_queue_ns": 60,
+        "model_end_queue_ew": 237,
+        "model_decisions": 10,
+        "model_fallbacks": 10
+      },
+      "weighted_mean_wait_departed_fixed_seconds": 119.0889355742297,
+      "weighted_mean_wait_departed_model_seconds": 98.71778711484593
+    }
+  ],
+  "host_6_pair_summary": {
+    "arrived_vehicles": 2597,
+    "fixed_qvs": 137493,
+    "model_qvs": 110395,
+    "fixed_departed": 2168,
+    "model_departed": 2273,
+    "fixed_total_wait_departed_seconds": 94551,
+    "model_total_wait_departed_seconds": 64432,
+    "fixed_end_queue_ns": 200,
+    "fixed_end_queue_ew": 229,
+    "model_end_queue_ns": 89,
+    "model_end_queue_ew": 235,
+    "model_decisions": 110,
+    "model_fallbacks": 10,
+    "pairs": 6,
+    "qvs_delta": -27098,
+    "qvs_relative_change_percent": -19.708639712567184,
+    "improved": 4,
+    "regressed": 2,
+    "unchanged": 0,
+    "worst_relative_change_case": {
+      "scenario": "bursty",
+      "seed": 2779054081,
+      "arrived_vehicles": 341,
+      "fixed_qvs": 3485,
+      "model_qvs": 4126,
+      "qvs_delta": 641,
+      "qvs_relative_change_percent": 18.393113342898136,
+      "fixed_departed": 339,
+      "model_departed": 339,
+      "fixed_total_wait_departed_seconds": 3480,
+      "model_total_wait_departed_seconds": 4121,
+      "fixed_mean_wait_departed_seconds": 10.265486725663717,
+      "model_mean_wait_departed_seconds": 12.156342182890855,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 2,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    "best_relative_change_case": {
+      "scenario": "ew_heavy",
+      "seed": 2779054081,
+      "arrived_vehicles": 386,
+      "fixed_qvs": 14972,
+      "model_qvs": 3126,
+      "qvs_delta": -11846,
+      "qvs_relative_change_percent": -79.12102591504141,
+      "fixed_departed": 341,
+      "model_departed": 382,
+      "fixed_total_wait_departed_seconds": 12652,
+      "model_total_wait_departed_seconds": 3089,
+      "fixed_mean_wait_departed_seconds": 37.10263929618768,
+      "model_mean_wait_departed_seconds": 8.086387434554974,
+      "fixed_end_queue_ns": 1,
+      "fixed_end_queue_ew": 44,
+      "model_end_queue_ns": 2,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    "weighted_mean_wait_departed_fixed_seconds": 43.61208487084871,
+    "weighted_mean_wait_departed_model_seconds": 28.346678398592168
+  },
+  "host_6_pairs": [
+    {
+      "scenario": "balanced",
+      "seed": 2779054081,
+      "arrived_vehicles": 357,
+      "fixed_qvs": 3035,
+      "model_qvs": 3263,
+      "qvs_delta": 228,
+      "qvs_relative_change_percent": 7.512355848434926,
+      "fixed_departed": 352,
+      "model_departed": 352,
+      "fixed_total_wait_departed_seconds": 2998,
+      "model_total_wait_departed_seconds": 3226,
+      "fixed_mean_wait_departed_seconds": 8.517045454545455,
+      "model_mean_wait_departed_seconds": 9.164772727272727,
+      "fixed_end_queue_ns": 3,
+      "fixed_end_queue_ew": 2,
+      "model_end_queue_ns": 3,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ns_heavy",
+      "seed": 2779054081,
+      "arrived_vehicles": 371,
+      "fixed_qvs": 11815,
+      "model_qvs": 3202,
+      "qvs_delta": -8613,
+      "qvs_relative_change_percent": -72.8988573846805,
+      "fixed_departed": 330,
+      "model_departed": 366,
+      "fixed_total_wait_departed_seconds": 9595,
+      "model_total_wait_departed_seconds": 3163,
+      "fixed_mean_wait_departed_seconds": 29.075757575757574,
+      "model_mean_wait_departed_seconds": 8.642076502732241,
+      "fixed_end_queue_ns": 41,
+      "fixed_end_queue_ew": 0,
+      "model_end_queue_ns": 5,
+      "model_end_queue_ew": 0,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "ew_heavy",
+      "seed": 2779054081,
+      "arrived_vehicles": 386,
+      "fixed_qvs": 14972,
+      "model_qvs": 3126,
+      "qvs_delta": -11846,
+      "qvs_relative_change_percent": -79.12102591504141,
+      "fixed_departed": 341,
+      "model_departed": 382,
+      "fixed_total_wait_departed_seconds": 12652,
+      "model_total_wait_departed_seconds": 3089,
+      "fixed_mean_wait_departed_seconds": 37.10263929618768,
+      "model_mean_wait_departed_seconds": 8.086387434554974,
+      "fixed_end_queue_ns": 1,
+      "fixed_end_queue_ew": 44,
+      "model_end_queue_ns": 2,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "direction_switch",
+      "seed": 2779054081,
+      "arrived_vehicles": 361,
+      "fixed_qvs": 10369,
+      "model_qvs": 3089,
+      "qvs_delta": -7280,
+      "qvs_relative_change_percent": -70.20927765454721,
+      "fixed_departed": 331,
+      "model_departed": 359,
+      "fixed_total_wait_departed_seconds": 9343,
+      "model_total_wait_departed_seconds": 3084,
+      "fixed_mean_wait_departed_seconds": 28.226586102719033,
+      "model_mean_wait_departed_seconds": 8.590529247910863,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 30,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "bursty",
+      "seed": 2779054081,
+      "arrived_vehicles": 341,
+      "fixed_qvs": 3485,
+      "model_qvs": 4126,
+      "qvs_delta": 641,
+      "qvs_relative_change_percent": 18.393113342898136,
+      "fixed_departed": 339,
+      "model_departed": 339,
+      "fixed_total_wait_departed_seconds": 3480,
+      "model_total_wait_departed_seconds": 4121,
+      "fixed_mean_wait_departed_seconds": 10.265486725663717,
+      "model_mean_wait_departed_seconds": 12.156342182890855,
+      "fixed_end_queue_ns": 0,
+      "fixed_end_queue_ew": 2,
+      "model_end_queue_ns": 0,
+      "model_end_queue_ew": 2,
+      "model_decisions": 20,
+      "model_fallbacks": 0
+    },
+    {
+      "scenario": "overload",
+      "seed": 2779054081,
+      "arrived_vehicles": 781,
+      "fixed_qvs": 93817,
+      "model_qvs": 93589,
+      "qvs_delta": -228,
+      "qvs_relative_change_percent": -0.24302631719198012,
+      "fixed_departed": 475,
+      "model_departed": 475,
+      "fixed_total_wait_departed_seconds": 56483,
+      "model_total_wait_departed_seconds": 47749,
+      "fixed_mean_wait_departed_seconds": 118.91157894736843,
+      "model_mean_wait_departed_seconds": 100.52421052631578,
+      "fixed_end_queue_ns": 155,
+      "fixed_end_queue_ew": 151,
+      "model_end_queue_ns": 79,
+      "model_end_queue_ew": 227,
+      "model_decisions": 10,
+      "model_fallbacks": 10
+    }
+  ],
+  "batch_overlap": {
+    "six_pair_records_are_matching_one_seed_subset": true,
+    "independent_sample_counts_must_not_be_added": true,
+    "details": [
+      {
+        "scenario": "balanced",
+        "seed": 2779054081,
+        "matches_historical_fields": {
+          "fixed": true,
+          "model": true
+        },
+        "compared_fields": [
+          "seconds",
+          "arrived_vehicles",
+          "departed_vehicles",
+          "queue_vehicle_seconds",
+          "total_wait_departed_seconds",
+          "end_queue_ns",
+          "end_queue_ew",
+          "decisions",
+          "model_decisions",
+          "fallbacks",
+          "plan_counts",
+          "error_flags",
+          "engine_bytes"
+        ]
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054081,
+        "matches_historical_fields": {
+          "fixed": true,
+          "model": true
+        },
+        "compared_fields": [
+          "seconds",
+          "arrived_vehicles",
+          "departed_vehicles",
+          "queue_vehicle_seconds",
+          "total_wait_departed_seconds",
+          "end_queue_ns",
+          "end_queue_ew",
+          "decisions",
+          "model_decisions",
+          "fallbacks",
+          "plan_counts",
+          "error_flags",
+          "engine_bytes"
+        ]
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054081,
+        "matches_historical_fields": {
+          "fixed": true,
+          "model": true
+        },
+        "compared_fields": [
+          "seconds",
+          "arrived_vehicles",
+          "departed_vehicles",
+          "queue_vehicle_seconds",
+          "total_wait_departed_seconds",
+          "end_queue_ns",
+          "end_queue_ew",
+          "decisions",
+          "model_decisions",
+          "fallbacks",
+          "plan_counts",
+          "error_flags",
+          "engine_bytes"
+        ]
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054081,
+        "matches_historical_fields": {
+          "fixed": true,
+          "model": true
+        },
+        "compared_fields": [
+          "seconds",
+          "arrived_vehicles",
+          "departed_vehicles",
+          "queue_vehicle_seconds",
+          "total_wait_departed_seconds",
+          "end_queue_ns",
+          "end_queue_ew",
+          "decisions",
+          "model_decisions",
+          "fallbacks",
+          "plan_counts",
+          "error_flags",
+          "engine_bytes"
+        ]
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054081,
+        "matches_historical_fields": {
+          "fixed": true,
+          "model": true
+        },
+        "compared_fields": [
+          "seconds",
+          "arrived_vehicles",
+          "departed_vehicles",
+          "queue_vehicle_seconds",
+          "total_wait_departed_seconds",
+          "end_queue_ns",
+          "end_queue_ew",
+          "decisions",
+          "model_decisions",
+          "fallbacks",
+          "plan_counts",
+          "error_flags",
+          "engine_bytes"
+        ]
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054081,
+        "matches_historical_fields": {
+          "fixed": true,
+          "model": true
+        },
+        "compared_fields": [
+          "seconds",
+          "arrived_vehicles",
+          "departed_vehicles",
+          "queue_vehicle_seconds",
+          "total_wait_departed_seconds",
+          "end_queue_ns",
+          "end_queue_ew",
+          "decisions",
+          "model_decisions",
+          "fallbacks",
+          "plan_counts",
+          "error_flags",
+          "engine_bytes"
+        ]
+      }
+    ]
+  },
+  "archived_reference_rules_context": {
+    "scope": "Contextual check of archived third policy, not a newly run comparator",
+    "rule_qvs": 326533,
+    "model_qvs": 326830,
+    "model_minus_rule_qvs": 297,
+    "model_vs_rule_relative_change_percent": 0.09095558488728551,
+    "model_better_cases": 3,
+    "model_worse_cases": 6,
+    "equal_cases": 9,
+    "cases": [
+      {
+        "scenario": "balanced",
+        "seed": 2779054081,
+        "rule_qvs": 3315,
+        "model_qvs": 3263,
+        "model_minus_rule_qvs": -52
+      },
+      {
+        "scenario": "balanced",
+        "seed": 2779054082,
+        "rule_qvs": 2688,
+        "model_qvs": 2674,
+        "model_minus_rule_qvs": -14
+      },
+      {
+        "scenario": "balanced",
+        "seed": 2779054083,
+        "rule_qvs": 3393,
+        "model_qvs": 3421,
+        "model_minus_rule_qvs": 28
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054081,
+        "rule_qvs": 3193,
+        "model_qvs": 3202,
+        "model_minus_rule_qvs": 9
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054082,
+        "rule_qvs": 2803,
+        "model_qvs": 2763,
+        "model_minus_rule_qvs": -40
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054083,
+        "rule_qvs": 3809,
+        "model_qvs": 4140,
+        "model_minus_rule_qvs": 331
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054081,
+        "rule_qvs": 3126,
+        "model_qvs": 3126,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054082,
+        "rule_qvs": 2399,
+        "model_qvs": 2399,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054083,
+        "rule_qvs": 2743,
+        "model_qvs": 2743,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054081,
+        "rule_qvs": 3080,
+        "model_qvs": 3089,
+        "model_minus_rule_qvs": 9
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054082,
+        "rule_qvs": 2546,
+        "model_qvs": 2546,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054083,
+        "rule_qvs": 3003,
+        "model_qvs": 3014,
+        "model_minus_rule_qvs": 11
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054081,
+        "rule_qvs": 4111,
+        "model_qvs": 4126,
+        "model_minus_rule_qvs": 15
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054082,
+        "rule_qvs": 3517,
+        "model_qvs": 3517,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054083,
+        "rule_qvs": 3626,
+        "model_qvs": 3626,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054081,
+        "rule_qvs": 93589,
+        "model_qvs": 93589,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054082,
+        "rule_qvs": 90108,
+        "model_qvs": 90108,
+        "model_minus_rule_qvs": 0
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054083,
+        "rule_qvs": 95484,
+        "model_qvs": 95484,
+        "model_minus_rule_qvs": 0
+      }
+    ]
+  },
+  "archived_board_narrative": {
+    "source": "evidence/EXPERIMENT_REPORT_original.md section 4",
+    "evidence_level": "narrative_report_only; arithmetic_checked; raw_traces_unavailable",
+    "table": {
+      "已消耗輸入筆數": [
+        600,
+        600
+      ],
+      "到車數": [
+        361,
+        361
+      ],
+      "放行數": [
+        331,
+        359
+      ],
+      "排隊車秒": [
+        10369,
+        3089
+      ],
+      "已放行等待總秒數": [
+        9343,
+        3084
+      ],
+      "已放行平均等待（秒）": [
+        28.227,
+        8.591
+      ],
+      "期末南北佇列": [
+        0,
+        0
+      ],
+      "期末東西佇列": [
+        30,
+        2
+      ],
+      "樹推論次數": [
+        0,
+        20
+      ],
+      "規則回退次數": [
+        0,
+        0
+      ],
+      "提交次數": [
+        20,
+        20
+      ],
+      "確認生效次數": [
+        20,
+        20
+      ]
+    },
+    "qvs_relative_change_percent": -70.20927765454721,
+    "recomputed_mean_wait_departed_seconds": [
+      28.226586102719033,
+      8.590529247910863
+    ],
+    "sample_table": {
+      "原始樣本數": [
+        2426,
+        2435
+      ],
+      "接受的執行樣本": [
+        2411,
+        2426
+      ],
+      "丟棄跨更新樣本": [
+        15,
+        9
+      ],
+      "完整觀測輸入秒數": [
+        600,
+        600
+      ],
+      "通過的核對條件數": [
+        118101,
+        118878
+      ]
+    },
+    "input_array_sha256_reported_not_rechecked": "d44f4d405d50bae28cda6ecc4652e7e15e10e2055177ee1eba5ac2c554a7fde1",
+    "input_array_crc32_reported_not_rechecked": "98eb45b4"
+  },
+  "model_header_macros": {
+    "TA_MODEL_QUEUE_MAX": "120u",
+    "TA_MODEL_ARRIVALS_30_MAX": "30u",
+    "TA_MODEL_FEATURE_COUNT": "4u",
+    "TA_MODEL_NODE_COUNT": "513u",
+    "TA_MODEL_MAX_DEPTH": "10u",
+    "TA_MODEL_SHA256": "\"6c3ac987313535765d2fbdaf8deb1372b8ff22e137c9803e927801a246256262\""
+  },
+  "snapshot_integrity": [
+    {
+      "snapshot": "source/DESIGN_original.md",
+      "sha256": "618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19",
+      "bytes": 14166,
+      "matches_manifest_sha256": true,
+      "matches_manifest_bytes": true
+    },
+    {
+      "snapshot": "source/Traffic_Assistant_Proposal_2026-11-03.pdf",
+      "sha256": "3f95b14f5d3c2ea7a434e0c898925f5a63c6ccfbc33e96a8d52fe7611761ca78",
+      "bytes": 281764,
+      "matches_manifest_sha256": true,
+      "matches_manifest_bytes": true
+    },
+    {
+      "snapshot": "evidence/firmware_validation_original.json",
+      "sha256": "b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164",
+      "bytes": 42568,
+      "matches_manifest_sha256": true,
+      "matches_manifest_bytes": true
+    },
+    {
+      "snapshot": "evidence/EXPERIMENT_REPORT_original.md",
+      "sha256": "5c4f6fcf9442343310213dccc4524db55569e3c112c16e1fe95b0315d42e233f",
+      "bytes": 16615,
+      "matches_manifest_sha256": true,
+      "matches_manifest_bytes": true
+    },
+    {
+      "snapshot": "evidence/comparison_6pairs_original.json",
+      "sha256": "38a8ac70dc0127d12f9796740128ebb531f083728d9fb5e4e41e357e088df376",
+      "bytes": 7295,
+      "matches_manifest_sha256": true,
+      "matches_manifest_bytes": true
+    },
+    {
+      "snapshot": "source/traffic_model.h",
+      "sha256": "47ec8713863dc317c6e9f132e8fac21e264ec7788f778e96b3b9e2cde382269b",
+      "bytes": 976,
+      "matches_manifest_sha256": true,
+      "matches_manifest_bytes": true
+    },
+    {
+      "snapshot": "source/traffic_agent.c",
+      "sha256": "2a5d781524a20c6a88ec7fc30d40ea3c793ccccd29f7cfeabab7a7b413e34d9c",
+      "bytes": 7357,
+      "matches_manifest_sha256": true,
+      "matches_manifest_bytes": true
+    }
+  ],
+  "limits": {
+    "original_external_files_accessed": false,
+    "snapshot_hashes_do_not_independently_authenticate_historical_execution": true,
+    "missing_to_rerun_original_experiments": [
+      "source/traffic_model.c (tree node arrays and inference implementation)",
+      "source/traffic_agent.h (engine types, queue capacity, flag constants)",
+      "synthetic_test_vectors.csv (per-second saved arrivals)",
+      "traffic_core.py / host runner / build files",
+      "FPGA RTL / bitstream / ARM ELF / platform source",
+      "raw board JSONL and per-second/decision traces",
+      "board validation JSON, input/build manifests, preservation and recovery records",
+      "training dataset/generator, hyperparameters, and training run records"
+    ],
+    "model_size_and_engine_size": "4104 and 2264 bytes are corroborated archived record values; not newly compiled sizeof measurements",
+    "speedup": "No timing/energy/area measurement supplied; recovered engine computes three-plan rule costs before invoking tree policy."
+  },
+  "checks": [
+    {
+      "name": "54 archived policy records",
+      "passed": true
+    },
+    {
+      "name": "archived report identifies host-only validation",
+      "passed": true
+    },
+    {
+      "name": "all archived records reported passed",
+      "passed": true
+    },
+    {
+      "name": "all archived records have 600 observations",
+      "passed": true
+    },
+    {
+      "name": "all archived records conserve vehicles",
+      "passed": true
+    },
+    {
+      "name": "all archived records have 20 decisions and consistent plan counts",
+      "passed": true
+    },
+    {
+      "name": "all archived error flags zero",
+      "passed": true
+    },
+    {
+      "name": "historical compared application count",
+      "passed": true
+    },
+    {
+      "name": "historical unused final decision count",
+      "passed": true
+    },
+    {
+      "name": "historical final decision row is 599",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054081)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054081)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054081)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054082)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054082)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054082)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054083)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054083)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('balanced', 2779054083)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054081)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054081)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054081)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054082)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054082)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054082)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054083)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054083)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ns_heavy', 2779054083)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054081)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054081)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054081)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054082)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054082)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054082)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054083)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054083)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('ew_heavy', 2779054083)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054081)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054081)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054081)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054082)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054082)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054082)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054083)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054083)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('direction_switch', 2779054083)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054081)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054081)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054081)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054082)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054082)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054082)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054083)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054083)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('bursty', 2779054083)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054081)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054081)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054081)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054082)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054082)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054082)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054083)/fixed_balanced",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054083)/reference_rules",
+      "passed": true
+    },
+    {
+      "name": "unique archived policy ('overload', 2779054083)/tiny_tree_rules_fallback",
+      "passed": true
+    },
+    {
+      "name": "three policies for balanced/2779054081",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for balanced/2779054081",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for balanced/2779054081",
+      "passed": true
+    },
+    {
+      "name": "three policies for balanced/2779054082",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for balanced/2779054082",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for balanced/2779054082",
+      "passed": true
+    },
+    {
+      "name": "three policies for balanced/2779054083",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for balanced/2779054083",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for balanced/2779054083",
+      "passed": true
+    },
+    {
+      "name": "three policies for ns_heavy/2779054081",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for ns_heavy/2779054081",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for ns_heavy/2779054081",
+      "passed": true
+    },
+    {
+      "name": "three policies for ns_heavy/2779054082",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for ns_heavy/2779054082",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for ns_heavy/2779054082",
+      "passed": true
+    },
+    {
+      "name": "three policies for ns_heavy/2779054083",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for ns_heavy/2779054083",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for ns_heavy/2779054083",
+      "passed": true
+    },
+    {
+      "name": "three policies for ew_heavy/2779054081",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for ew_heavy/2779054081",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for ew_heavy/2779054081",
+      "passed": true
+    },
+    {
+      "name": "three policies for ew_heavy/2779054082",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for ew_heavy/2779054082",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for ew_heavy/2779054082",
+      "passed": true
+    },
+    {
+      "name": "three policies for ew_heavy/2779054083",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for ew_heavy/2779054083",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for ew_heavy/2779054083",
+      "passed": true
+    },
+    {
+      "name": "three policies for direction_switch/2779054081",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for direction_switch/2779054081",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for direction_switch/2779054081",
+      "passed": true
+    },
+    {
+      "name": "three policies for direction_switch/2779054082",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for direction_switch/2779054082",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for direction_switch/2779054082",
+      "passed": true
+    },
+    {
+      "name": "three policies for direction_switch/2779054083",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for direction_switch/2779054083",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for direction_switch/2779054083",
+      "passed": true
+    },
+    {
+      "name": "three policies for bursty/2779054081",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for bursty/2779054081",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for bursty/2779054081",
+      "passed": true
+    },
+    {
+      "name": "three policies for bursty/2779054082",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for bursty/2779054082",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for bursty/2779054082",
+      "passed": true
+    },
+    {
+      "name": "three policies for bursty/2779054083",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for bursty/2779054083",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for bursty/2779054083",
+      "passed": true
+    },
+    {
+      "name": "three policies for overload/2779054081",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for overload/2779054081",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for overload/2779054081",
+      "passed": true
+    },
+    {
+      "name": "three policies for overload/2779054082",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for overload/2779054082",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for overload/2779054082",
+      "passed": true
+    },
+    {
+      "name": "three policies for overload/2779054083",
+      "passed": true
+    },
+    {
+      "name": "same aggregate arrivals for overload/2779054083",
+      "passed": true
+    },
+    {
+      "name": "tree plus fallback decisions for overload/2779054083",
+      "passed": true
+    },
+    {
+      "name": "18 historical pairs",
+      "passed": true
+    },
+    {
+      "name": "historical stored policy totals match",
+      "passed": true
+    },
+    {
+      "name": "six-pair percent for ('balanced', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair conservation ('balanced', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair reporting window ('balanced', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair model storage ('balanced', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair percent for ('ns_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair conservation ('ns_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair reporting window ('ns_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair model storage ('ns_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair percent for ('ew_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair conservation ('ew_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair reporting window ('ew_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair model storage ('ew_heavy', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair percent for ('direction_switch', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair conservation ('direction_switch', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair reporting window ('direction_switch', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair model storage ('direction_switch', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair percent for ('bursty', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair conservation ('bursty', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair reporting window ('bursty', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair model storage ('bursty', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair percent for ('overload', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair conservation ('overload', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair reporting window ('overload', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair model storage ('overload', 2779054081)",
+      "passed": true
+    },
+    {
+      "name": "six-pair summary matches",
+      "passed": true
+    },
+    {
+      "name": "six-pair records match one historical seed subset",
+      "passed": true
+    },
+    {
+      "name": "previous data audit host_18_pairs agrees",
+      "passed": true
+    },
+    {
+      "name": "previous data audit host_6_pairs agrees",
+      "passed": true
+    },
+    {
+      "name": "narrative board pair conserves vehicles",
+      "passed": true
+    },
+    {
+      "name": "narrative board average waits round correctly",
+      "passed": true
+    },
+    {
+      "name": "narrative board reduction rounds to 70.21 percent",
+      "passed": true
+    },
+    {
+      "name": "narrative accepted and discarded sample sums",
+      "passed": true
+    },
+    {
+      "name": "narrative board QVS matches archived host pair",
+      "passed": true
+    },
+    {
+      "name": "snapshot integrity source/DESIGN_original.md",
+      "passed": true
+    },
+    {
+      "name": "snapshot integrity source/Traffic_Assistant_Proposal_2026-11-03.pdf",
+      "passed": true
+    },
+    {
+      "name": "snapshot integrity evidence/firmware_validation_original.json",
+      "passed": true
+    },
+    {
+      "name": "snapshot integrity evidence/EXPERIMENT_REPORT_original.md",
+      "passed": true
+    },
+    {
+      "name": "snapshot integrity evidence/comparison_6pairs_original.json",
+      "passed": true
+    },
+    {
+      "name": "snapshot integrity source/traffic_model.h",
+      "passed": true
+    },
+    {
+      "name": "snapshot integrity source/traffic_agent.c",
+      "passed": true
+    },
+    {
+      "name": "firmware record C source hash matches snapshot",
+      "passed": true
+    },
+    {
+      "name": "firmware record model header hash matches snapshot",
+      "passed": true
+    },
+    {
+      "name": "model identifier matches recorded validation",
+      "passed": true
+    },
+    {
+      "name": "rule call precedes policy branch in recovered source",
+      "passed": true
+    }
+  ]
+}

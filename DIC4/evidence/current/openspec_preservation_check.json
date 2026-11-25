@@ -1,0 +1,102 @@
+{
+  "all_inherited_artifacts_preserved": true,
+  "count": 19,
+  "files": [
+    {
+      "path": "changes/archive/.gitkeep",
+      "preserved_byte_for_byte": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "changes/archive/2026-11-13-refactor-project-proposal/.openspec.yaml",
+      "preserved_byte_for_byte": true,
+      "sha256": "3ea192d12c1ad3d96d8e6cfd6fddb23c8be77d85611385996b685b4736c117c0"
+    },
+    {
+      "path": "changes/archive/2026-11-13-refactor-project-proposal/design.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "f47ca4cee21289fd58825eb051f4eae254984a81c61456c18975e460d3c12239"
+    },
+    {
+      "path": "changes/archive/2026-11-13-refactor-project-proposal/proposal.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "bb7aca09dcaa296a39e379329efcc52b93887ed3e3e86a05df49261ab717bc90"
+    },
+    {
+      "path": "changes/archive/2026-11-13-refactor-project-proposal/specs/proposal-documentation/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "5bd2690f236e35bb2466ce63f59ccaa804b0ae2e061b12cd72acc65af9aa15cd"
+    },
+    {
+      "path": "changes/archive/2026-11-13-refactor-project-proposal/tasks.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "029fda4c94c5bcfdad183df3c2d40fc4b33188bf9010b48c3e97379f8ac534c4"
+    },
+    {
+      "path": "changes/integrate-task-workflow/.openspec.yaml",
+      "preserved_byte_for_byte": true,
+      "sha256": "3ea192d12c1ad3d96d8e6cfd6fddb23c8be77d85611385996b685b4736c117c0"
+    },
+    {
+      "path": "changes/integrate-task-workflow/design.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "cc0d5e5375e092bbbc7ea78b50935a6dfb8320f1e237bd51174d5e762045e4b4"
+    },
+    {
+      "path": "changes/integrate-task-workflow/proposal.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "536248108df4ea128951b27750c0b339d3476c914fdaeaa12bb192c27a957c80"
+    },
+    {
+      "path": "changes/integrate-task-workflow/specs/data-qualification/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "3d979aca2dcebada3670b9a25d1cc1d439fab81194793808e7e312df9670dde1"
+    },
+    {
+      "path": "changes/integrate-task-workflow/specs/decision-evidence/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "3a7c6ceb03e7fd6772a4e4e79dcb53b153d77a001357c5437c55d488e566ab98"
+    },
+    {
+      "path": "changes/integrate-task-workflow/specs/execution-verification/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "906deddb599ce09de54e50452cc12b49c2bd51de0223747dc99d1b44ee46a8a1"
+    },
+    {
+      "path": "changes/integrate-task-workflow/specs/task-intake/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "69acbbd048e01091f8f5bc9e2bfcacb1c58a387f83b0c36a87b608f7c0b2c968"
+    },
+    {
+      "path": "changes/integrate-task-workflow/specs/task-reporting/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "f629bf0f3dc0f43f30b20e84246dbb446cc9a85764ccf4d4e302ea8657ddb1d1"
+    },
+    {
+      "path": "changes/integrate-task-workflow/tasks.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "85e07c73f340dfd7a4b7485a1d3192aad815bbc48f948c3a1b82ea22e4a7baf4"
+    },
+    {
+      "path": "specs/.gitkeep",
+      "preserved_byte_for_byte": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "specs/paired-evaluation/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "c4887581bc5261fe880f17121e937be57184c247446a9d185056d61c9a01a8e7"
+    },
+    {
+      "path": "specs/proposal-documentation/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "a2d0eba334ffeb1fc55a7253cc99c8b36a6eeecb78a6438b51f8e7067cc93945"
+    },
+    {
+      "path": "specs/traffic-control-core/spec.md",
+      "preserved_byte_for_byte": true,
+      "sha256": "e9801fcc53b88f568827f4a457649e008caf9cea5203fbb403e1c7dbf39920af"
+    }
+  ],
+  "intentional_change": "config.yaml includes DIC4 language and publication-status context"
+}

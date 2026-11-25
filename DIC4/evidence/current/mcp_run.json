@@ -1,0 +1,505 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-11-25T15:37:50.173940+00:00",
+  "scope": "Actual local stdio MCP authoring/provenance session; no traffic-controller or online-publication operation.",
+  "sdk": {
+    "package": "mcp",
+    "version": "1.29.0",
+    "required_version": "1.29.0"
+  },
+  "python_version": "3.12.14",
+  "server_entry_point": "mcp/evidence_server.py",
+  "client_entry_point": "mcp/demo_client.py",
+  "source_sha256": {
+    "mcp/evidence_server.py": "58b72195cfe57ea61f7b625eec3d77fc646d3ffbf95c230d07fea13ad9e065b6",
+    "mcp/demo_client.py": "14c06e3fba8f9a0a973ca28749a86bda6d97f236d5754c8f21505001915cba84"
+  },
+  "events": [
+    {
+      "method": "initialize",
+      "request": {
+        "clientInfo": {
+          "name": "traffic-assistant-evidence-demo",
+          "version": "1.0.0"
+        }
+      },
+      "started_at_utc": "2026-11-25T15:37:50.177233+00:00",
+      "completed_at_utc": "2026-11-25T15:37:50.662358+00:00",
+      "response": {
+        "protocolVersion": "2025-11-25",
+        "capabilities": {
+          "experimental": {},
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "subscribe": false,
+            "listChanged": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "serverInfo": {
+          "name": "traffic-assistant-evidence",
+          "version": "1.29.0"
+        },
+        "instructions": "Read the fixed manuscript evidence files. These tools support authoring and provenance; they do not control traffic hardware, modify files, or publish to Overleaf or GitHub. Historical results remain historical."
+      }
+    },
+    {
+      "method": "tools/list",
+      "request": {},
+      "started_at_utc": "2026-11-25T15:37:50.662414+00:00",
+      "completed_at_utc": "2026-11-25T15:37:50.665300+00:00",
+      "response": {
+        "tools": [
+          {
+            "name": "list_evidence",
+            "description": "List three fixed retained evidence files and their actual byte hashes.",
+            "inputSchema": {
+              "properties": {},
+              "title": "list_evidenceArguments",
+              "type": "object"
+            },
+            "outputSchema": {
+              "additionalProperties": true,
+              "title": "list_evidenceDictOutput",
+              "type": "object"
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "summarize_archived_results",
+            "description": "Read audited historical summaries; this call does not rerun traffic experiments.",
+            "inputSchema": {
+              "properties": {},
+              "title": "summarize_archived_resultsArguments",
+              "type": "object"
+            },
+            "outputSchema": {
+              "additionalProperties": true,
+              "title": "summarize_archived_resultsDictOutput",
+              "type": "object"
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "read_architecture_excerpt",
+            "description": "Return exact retained design sections 2 and 5, with source line ranges.",
+            "inputSchema": {
+              "properties": {},
+              "title": "read_architecture_excerptArguments",
+              "type": "object"
+            },
+            "outputSchema": {
+              "additionalProperties": true,
+              "title": "read_architecture_excerptDictOutput",
+              "type": "object"
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "method": "tools/call",
+      "request": {
+        "name": "list_evidence",
+        "arguments": {}
+      },
+      "started_at_utc": "2026-11-25T15:37:50.665360+00:00",
+      "completed_at_utc": "2026-11-25T15:37:50.669195+00:00",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"scope\": \"fixed project artifacts only\",\n  \"files\": [\n    {\n      \"evidence_id\": \"current_arithmetic_audit\",\n      \"path\": \"evidence/current/audit_results.json\",\n      \"size_bytes\": 64298,\n      \"sha256\": \"b9122661cbcae83717afb0e9eb5317f5802f686bb616e69d783402595cfdb1e9\"\n    },\n    {\n      \"evidence_id\": \"archived_architecture\",\n      \"path\": \"evidence/archive/dic3/source/DESIGN_original.md\",\n      \"size_bytes\": 14166,\n      \"sha256\": \"618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19\"\n    },\n    {\n      \"evidence_id\": \"archived_host_records\",\n      \"path\": \"evidence/archive/dic3/evidence/firmware_validation_original.json\",\n      \"size_bytes\": 42568,\n      \"sha256\": \"b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164\"\n    }\n  ]\n}"
+          }
+        ],
+        "structuredContent": {
+          "scope": "fixed project artifacts only",
+          "files": [
+            {
+              "evidence_id": "current_arithmetic_audit",
+              "path": "evidence/current/audit_results.json",
+              "size_bytes": 64298,
+              "sha256": "b9122661cbcae83717afb0e9eb5317f5802f686bb616e69d783402595cfdb1e9"
+            },
+            {
+              "evidence_id": "archived_architecture",
+              "path": "evidence/archive/dic3/source/DESIGN_original.md",
+              "size_bytes": 14166,
+              "sha256": "618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19"
+            },
+            {
+              "evidence_id": "archived_host_records",
+              "path": "evidence/archive/dic3/evidence/firmware_validation_original.json",
+              "size_bytes": 42568,
+              "sha256": "b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164"
+            }
+          ]
+        },
+        "isError": false
+      }
+    },
+    {
+      "method": "tools/call",
+      "request": {
+        "name": "summarize_archived_results",
+        "arguments": {}
+      },
+      "started_at_utc": "2026-11-25T15:37:50.669223+00:00",
+      "completed_at_utc": "2026-11-25T15:37:50.673572+00:00",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"source\": {\n    \"evidence_id\": \"current_arithmetic_audit\",\n    \"path\": \"evidence/current/audit_results.json\",\n    \"size_bytes\": 64298,\n    \"sha256\": \"b9122661cbcae83717afb0e9eb5317f5802f686bb616e69d783402595cfdb1e9\"\n  },\n  \"kind\": \"independent_recalculation_of_archived_DIC3_records\",\n  \"audit_status\": \"PASS\",\n  \"checks_passed\": 164,\n  \"checks_total\": 164,\n  \"host_18_pair_summary\": {\n    \"arrived_vehicles\": 7670,\n    \"fixed_qvs\": 399954,\n    \"model_qvs\": 326830,\n    \"fixed_departed\": 6428,\n    \"model_departed\": 6689,\n    \"fixed_total_wait_departed_seconds\": 277575,\n    \"model_total_wait_departed_seconds\": 188123,\n    \"fixed_end_queue_ns\": 598,\n    \"fixed_end_queue_ew\": 644,\n    \"model_end_queue_ns\": 276,\n    \"model_end_queue_ew\": 705,\n    \"model_decisions\": 329,\n    \"model_fallbacks\": 31,\n    \"pairs\": 18,\n    \"qvs_delta\": -73124,\n    \"qvs_relative_change_percent\": -18.28310255679403,\n    \"improved\": 13,\n    \"regressed\": 5,\n    \"unchanged\": 0,\n    \"worst_relative_change_case\": {\n      \"scenario\": \"bursty\",\n      \"seed\": 2779054082,\n      \"arrived_vehicles\": 317,\n      \"fixed_qvs\": 2881,\n      \"model_qvs\": 3517,\n      \"qvs_delta\": 636,\n      \"qvs_relative_change_percent\": 22.075668170774037,\n      \"fixed_departed\": 317,\n      \"model_departed\": 317,\n      \"fixed_total_wait_departed_seconds\": 2881,\n      \"model_total_wait_departed_seconds\": 3517,\n      \"fixed_mean_wait_departed_seconds\": 9.088328075709779,\n      \"model_mean_wait_departed_seconds\": 11.094637223974763,\n      \"fixed_end_queue_ns\": 0,\n      \"fixed_end_queue_ew\": 0,\n      \"model_end_queue_ns\": 0,\n      \"model_end_queue_ew\": 0,\n      \"model_decisions\": 20,\n      \"model_fallbacks\": 0\n    },\n    \"best_relative_change_case\": {\n      \"scenario\": \"ew_heavy\",\n      \"seed\": 2779054083,\n      \"arrived_vehicles\": 370,\n      \"fixed_qvs\": 14052,\n      \"model_qvs\": 2743,\n      \"qvs_delta\": -11309,\n      \"qvs_relative_change_percent\": -80.47964702533447,\n      \"fixed_departed\": 333,\n      \"model_departed\": 361,\n      \"fixed_total_wait_departed_seconds\": 12641,\n      \"model_total_wait_departed_seconds\": 2642,\n      \"fixed_mean_wait_departed_seconds\": 37.96096096096096,\n      \"model_mean_wait_departed_seconds\": 7.3185595567867034,\n      \"fixed_end_queue_ns\": 6,\n      \"fixed_end_queue_ew\": 31,\n      \"model_end_queue_ns\": 8,\n      \"model_end_queue_ew\": 1,\n      \"model_decisions\": 20,\n      \"model_fallbacks\": 0\n    },\n    \"weighted_mean_wait_departed_fixed_seconds\": 43.18217174859988,\n    \"weighted_mean_wait_departed_model_seconds\": 28.124233816714007\n  },\n  \"host_6_pair_summary\": {\n    \"arrived_vehicles\": 2597,\n    \"fixed_qvs\": 137493,\n    \"model_qvs\": 110395,\n    \"fixed_departed\": 2168,\n    \"model_departed\": 2273,\n    \"fixed_total_wait_departed_seconds\": 94551,\n    \"model_total_wait_departed_seconds\": 64432,\n    \"fixed_end_queue_ns\": 200,\n    \"fixed_end_queue_ew\": 229,\n    \"model_end_queue_ns\": 89,\n    \"model_end_queue_ew\": 235,\n    \"model_decisions\": 110,\n    \"model_fallbacks\": 10,\n    \"pairs\": 6,\n    \"qvs_delta\": -27098,\n    \"qvs_relative_change_percent\": -19.708639712567184,\n    \"improved\": 4,\n    \"regressed\": 2,\n    \"unchanged\": 0,\n    \"worst_relative_change_case\": {\n      \"scenario\": \"bursty\",\n      \"seed\": 2779054081,\n      \"arrived_vehicles\": 341,\n      \"fixed_qvs\": 3485,\n      \"model_qvs\": 4126,\n      \"qvs_delta\": 641,\n      \"qvs_relative_change_percent\": 18.393113342898136,\n      \"fixed_departed\": 339,\n      \"model_departed\": 339,\n      \"fixed_total_wait_departed_seconds\": 3480,\n      \"model_total_wait_departed_seconds\": 4121,\n      \"fixed_mean_wait_departed_seconds\": 10.265486725663717,\n      \"model_mean_wait_departed_seconds\": 12.156342182890855,\n      \"fixed_end_queue_ns\": 0,\n      \"fixed_end_queue_ew\": 2,\n      \"model_end_queue_ns\": 0,\n      \"model_end_queue_ew\": 2,\n      \"model_decisions\": 20,\n      \"model_fallbacks\": 0\n    },\n    \"best_relative_change_case\": {\n      \"scenario\": \"ew_heavy\",\n      \"seed\": 2779054081,\n      \"arrived_vehicles\": 386,\n      \"fixed_qvs\": 14972,\n      \"model_qvs\": 3126,\n      \"qvs_delta\": -11846,\n      \"qvs_relative_change_percent\": -79.12102591504141,\n      \"fixed_departed\": 341,\n      \"model_departed\": 382,\n      \"fixed_total_wait_departed_seconds\": 12652,\n      \"model_total_wait_departed_seconds\": 3089,\n      \"fixed_mean_wait_departed_seconds\": 37.10263929618768,\n      \"model_mean_wait_departed_seconds\": 8.086387434554974,\n      \"fixed_end_queue_ns\": 1,\n      \"fixed_end_queue_ew\": 44,\n      \"model_end_queue_ns\": 2,\n      \"model_end_queue_ew\": 2,\n      \"model_decisions\": 20,\n      \"model_fallbacks\": 0\n    },\n    \"weighted_mean_wait_departed_fixed_seconds\": 43.61208487084871,\n    \"weighted_mean_wait_departed_model_seconds\": 28.346678398592168\n  },\n  \"six_pairs_match_a_one_seed_subset\": true,\n  \"independent_sample_counts_must_not_be_added\": true,\n  \"board_evidence_level\": \"narrative_report_only; arithmetic_checked; raw_traces_unavailable\",\n  \"new_training\": false,\n  \"new_firmware_simulation\": false,\n  \"new_model_inference\": false,\n  \"new_hardware_run\": false,\n  \"raw_hardware_trace_revalidation\": false,\n  \"interpretation\": \"Archived synthetic FIFO evidence; current arithmetic checks are not new traffic or board experiments.\"\n}"
+          }
+        ],
+        "structuredContent": {
+          "source": {
+            "evidence_id": "current_arithmetic_audit",
+            "path": "evidence/current/audit_results.json",
+            "size_bytes": 64298,
+            "sha256": "b9122661cbcae83717afb0e9eb5317f5802f686bb616e69d783402595cfdb1e9"
+          },
+          "kind": "independent_recalculation_of_archived_DIC3_records",
+          "audit_status": "PASS",
+          "checks_passed": 164,
+          "checks_total": 164,
+          "host_18_pair_summary": {
+            "arrived_vehicles": 7670,
+            "fixed_qvs": 399954,
+            "model_qvs": 326830,
+            "fixed_departed": 6428,
+            "model_departed": 6689,
+            "fixed_total_wait_departed_seconds": 277575,
+            "model_total_wait_departed_seconds": 188123,
+            "fixed_end_queue_ns": 598,
+            "fixed_end_queue_ew": 644,
+            "model_end_queue_ns": 276,
+            "model_end_queue_ew": 705,
+            "model_decisions": 329,
+            "model_fallbacks": 31,
+            "pairs": 18,
+            "qvs_delta": -73124,
+            "qvs_relative_change_percent": -18.28310255679403,
+            "improved": 13,
+            "regressed": 5,
+            "unchanged": 0,
+            "worst_relative_change_case": {
+              "scenario": "bursty",
+              "seed": 2779054082,
+              "arrived_vehicles": 317,
+              "fixed_qvs": 2881,
+              "model_qvs": 3517,
+              "qvs_delta": 636,
+              "qvs_relative_change_percent": 22.075668170774037,
+              "fixed_departed": 317,
+              "model_departed": 317,
+              "fixed_total_wait_departed_seconds": 2881,
+              "model_total_wait_departed_seconds": 3517,
+              "fixed_mean_wait_departed_seconds": 9.088328075709779,
+              "model_mean_wait_departed_seconds": 11.094637223974763,
+              "fixed_end_queue_ns": 0,
+              "fixed_end_queue_ew": 0,
+              "model_end_queue_ns": 0,
+              "model_end_queue_ew": 0,
+              "model_decisions": 20,
+              "model_fallbacks": 0
+            },
+            "best_relative_change_case": {
+              "scenario": "ew_heavy",
+              "seed": 2779054083,
+              "arrived_vehicles": 370,
+              "fixed_qvs": 14052,
+              "model_qvs": 2743,
+              "qvs_delta": -11309,
+              "qvs_relative_change_percent": -80.47964702533447,
+              "fixed_departed": 333,
+              "model_departed": 361,
+              "fixed_total_wait_departed_seconds": 12641,
+              "model_total_wait_departed_seconds": 2642,
+              "fixed_mean_wait_departed_seconds": 37.96096096096096,
+              "model_mean_wait_departed_seconds": 7.3185595567867034,
+              "fixed_end_queue_ns": 6,
+              "fixed_end_queue_ew": 31,
+              "model_end_queue_ns": 8,
+              "model_end_queue_ew": 1,
+              "model_decisions": 20,
+              "model_fallbacks": 0
+            },
+            "weighted_mean_wait_departed_fixed_seconds": 43.18217174859988,
+            "weighted_mean_wait_departed_model_seconds": 28.124233816714007
+          },
+          "host_6_pair_summary": {
+            "arrived_vehicles": 2597,
+            "fixed_qvs": 137493,
+            "model_qvs": 110395,
+            "fixed_departed": 2168,
+            "model_departed": 2273,
+            "fixed_total_wait_departed_seconds": 94551,
+            "model_total_wait_departed_seconds": 64432,
+            "fixed_end_queue_ns": 200,
+            "fixed_end_queue_ew": 229,
+            "model_end_queue_ns": 89,
+            "model_end_queue_ew": 235,
+            "model_decisions": 110,
+            "model_fallbacks": 10,
+            "pairs": 6,
+            "qvs_delta": -27098,
+            "qvs_relative_change_percent": -19.708639712567184,
+            "improved": 4,
+            "regressed": 2,
+            "unchanged": 0,
+            "worst_relative_change_case": {
+              "scenario": "bursty",
+              "seed": 2779054081,
+              "arrived_vehicles": 341,
+              "fixed_qvs": 3485,
+              "model_qvs": 4126,
+              "qvs_delta": 641,
+              "qvs_relative_change_percent": 18.393113342898136,
+              "fixed_departed": 339,
+              "model_departed": 339,
+              "fixed_total_wait_departed_seconds": 3480,
+              "model_total_wait_departed_seconds": 4121,
+              "fixed_mean_wait_departed_seconds": 10.265486725663717,
+              "model_mean_wait_departed_seconds": 12.156342182890855,
+              "fixed_end_queue_ns": 0,
+              "fixed_end_queue_ew": 2,
+              "model_end_queue_ns": 0,
+              "model_end_queue_ew": 2,
+              "model_decisions": 20,
+              "model_fallbacks": 0
+            },
+            "best_relative_change_case": {
+              "scenario": "ew_heavy",
+              "seed": 2779054081,
+              "arrived_vehicles": 386,
+              "fixed_qvs": 14972,
+              "model_qvs": 3126,
+              "qvs_delta": -11846,
+              "qvs_relative_change_percent": -79.12102591504141,
+              "fixed_departed": 341,
+              "model_departed": 382,
+              "fixed_total_wait_departed_seconds": 12652,
+              "model_total_wait_departed_seconds": 3089,
+              "fixed_mean_wait_departed_seconds": 37.10263929618768,
+              "model_mean_wait_departed_seconds": 8.086387434554974,
+              "fixed_end_queue_ns": 1,
+              "fixed_end_queue_ew": 44,
+              "model_end_queue_ns": 2,
+              "model_end_queue_ew": 2,
+              "model_decisions": 20,
+              "model_fallbacks": 0
+            },
+            "weighted_mean_wait_departed_fixed_seconds": 43.61208487084871,
+            "weighted_mean_wait_departed_model_seconds": 28.346678398592168
+          },
+          "six_pairs_match_a_one_seed_subset": true,
+          "independent_sample_counts_must_not_be_added": true,
+          "board_evidence_level": "narrative_report_only; arithmetic_checked; raw_traces_unavailable",
+          "new_training": false,
+          "new_firmware_simulation": false,
+          "new_model_inference": false,
+          "new_hardware_run": false,
+          "raw_hardware_trace_revalidation": false,
+          "interpretation": "Archived synthetic FIFO evidence; current arithmetic checks are not new traffic or board experiments."
+        },
+        "isError": false
+      }
+    },
+    {
+      "method": "tools/call",
+      "request": {
+        "name": "read_architecture_excerpt",
+        "arguments": {}
+      },
+      "started_at_utc": "2026-11-25T15:37:50.673615+00:00",
+      "completed_at_utc": "2026-11-25T15:37:50.676857+00:00",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"source\": {\n    \"evidence_id\": \"archived_architecture\",\n    \"path\": \"evidence/archive/dic3/source/DESIGN_original.md\",\n    \"size_bytes\": 14166,\n    \"sha256\": \"618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19\"\n  },\n  \"kind\": \"verbatim archived design excerpts; original temporal wording is preserved\",\n  \"sections\": [\n    {\n      \"heading\": \"## 2 本輪需求與狀態\",\n      \"start_line\": 11,\n      \"end_line\": 24,\n      \"text\": \"## 2 本輪需求與狀態\\n\\n| 需求 | 實作/證據 | 狀態 |\\n|---|---|---|\\n| 保留既有模型與三方案 | embedded/model/traffic_model.c、firmware/traffic_agent.c | 已有 |\\n| 固定 30 秒週期與倒數 | rtl/traffic_fsm.v、embedded/rtl/traffic_axi.v | 已有實板功能證據 |\\n| 使用相同輸入比較固定 vs. 模型 | 歷史 firmware_validation.json 與本輪實驗報告 | 歷史 18 組、本輪 6 組主機與 1 組實板配對分開保存 |\\n| 結構化需求與資料批次識別 | 分散的 CLI/manifest 與人工操作 | 統一入口待補 |\\n| 輸出特徵/方案/理由/生效證據 | 歷史欄位及本輪 strict 驗證/自動配對報告 | 實驗報告已有；通用 Agent 任務整合待補 |\\n| 官方資料只做離線處理 | embedded/data/taipei/ | 已有單分鐘整理；控制實驗未成立 |\\n| 保留歷史證據 | proposal/history/2026-10-30_before_scope/ 與各次原始記錄 | 本輪保留 |\\n\\n三方案 NS/EW 綠燈分別為 12/12、16/8、8/16 秒。每方向黃燈 2 秒、全紅 1 秒為本展示設定，不是一般道路標準。相位為 NS 綠、NS 黃、全紅、EW 綠、EW 黃、全紅；只有綠燈顯示剩餘秒數。新方案在完整週期邊界生效，不重啟當前倒數。\"\n    },\n    {\n      \"heading\": \"## 5 模型與資料\",\n      \"start_line\": 67,\n      \"end_line\": 80,\n      \"text\": \"## 5 模型與資料\\n\\n模型為 513 節點、最大深度 10、權重 4,104 bytes 的整數決策樹。輸入為兩軸目前估計佇列與各自過去完整 30 秒到車數，輸出 0/1/2。訓練答案來自既有的配時評分規則：依目前佇列與過去到車數，估算三個方案在下一週期的累積排隊量，取評分最低的方案作為參考答案。決策樹學習「車流狀態 → 參考方案」的對應。參考答案依賴簡化假設，沒有保證真實道路最優，也沒有證據顯示樹模型優於直接使用規則。每向有效域為 queue 0–120、30 秒到車 0–30；現有板端到車介面每向每秒 0/1。有效域外，現行韌體使用規則回退並保留旗標。\\n\\n| 資料 | 本輪用途 | 限制 |\\n|---|---|---|\\n| 已有 6 情境 x 3 seeds、每段 600 秒合成資料 | 重用 18 組固定/模型政策的既有比較 | 人工測試；本輪不產生新亂數 |\\n| 歷史 600 秒 SD 實板紀錄 | 保留原決策、提交、生效與電子回讀證據 | 此歷史單輪只有模型政策；不與本輪 OCM 配對混用 |\\n| 本輪保存輸入回放 | 6 組主機配對及 direction_switch 1 組實板配對 | 簡化 FIFO 合成資料；電子回讀不代表道路或目視驗證 |\\n| 臺北 2026-10-22 13:06 一分鐘官方觀測 | 資料品質、單位與可用性分析 | 611 列單軸候選不是 611 個可控制路口；沒有有效兩軸配對/連續十分鐘 |\\n| 舊國道分鐘快照與重建 replay | 歷史 UART 軟體測試來源記錄 | 人工配對與重複分鐘；不採作本輪官方時序/路口控制證據 |\\n\\n後續官方資料採下載後離線處理；保留原始時間、雜湊、車道涵蓋與缺值。缺分鐘不補零，不把同一快照重複成長時間資料，不任意配對無關方向，也不縮放超出介面的流量。分鐘總量若需轉成逐秒排程，另立明確方法與衍生標籤，尚未列為完成。\"\n    }\n  ]\n}"
+          }
+        ],
+        "structuredContent": {
+          "source": {
+            "evidence_id": "archived_architecture",
+            "path": "evidence/archive/dic3/source/DESIGN_original.md",
+            "size_bytes": 14166,
+            "sha256": "618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19"
+          },
+          "kind": "verbatim archived design excerpts; original temporal wording is preserved",
+          "sections": [
+            {
+              "heading": "## 2 本輪需求與狀態",
+              "start_line": 11,
+              "end_line": 24,
+              "text": "## 2 本輪需求與狀態\n\n| 需求 | 實作/證據 | 狀態 |\n|---|---|---|\n| 保留既有模型與三方案 | embedded/model/traffic_model.c、firmware/traffic_agent.c | 已有 |\n| 固定 30 秒週期與倒數 | rtl/traffic_fsm.v、embedded/rtl/traffic_axi.v | 已有實板功能證據 |\n| 使用相同輸入比較固定 vs. 模型 | 歷史 firmware_validation.json 與本輪實驗報告 | 歷史 18 組、本輪 6 組主機與 1 組實板配對分開保存 |\n| 結構化需求與資料批次識別 | 分散的 CLI/manifest 與人工操作 | 統一入口待補 |\n| 輸出特徵/方案/理由/生效證據 | 歷史欄位及本輪 strict 驗證/自動配對報告 | 實驗報告已有；通用 Agent 任務整合待補 |\n| 官方資料只做離線處理 | embedded/data/taipei/ | 已有單分鐘整理；控制實驗未成立 |\n| 保留歷史證據 | proposal/history/2026-10-30_before_scope/ 與各次原始記錄 | 本輪保留 |\n\n三方案 NS/EW 綠燈分別為 12/12、16/8、8/16 秒。每方向黃燈 2 秒、全紅 1 秒為本展示設定，不是一般道路標準。相位為 NS 綠、NS 黃、全紅、EW 綠、EW 黃、全紅；只有綠燈顯示剩餘秒數。新方案在完整週期邊界生效，不重啟當前倒數。"
+            },
+            {
+              "heading": "## 5 模型與資料",
+              "start_line": 67,
+              "end_line": 80,
+              "text": "## 5 模型與資料\n\n模型為 513 節點、最大深度 10、權重 4,104 bytes 的整數決策樹。輸入為兩軸目前估計佇列與各自過去完整 30 秒到車數，輸出 0/1/2。訓練答案來自既有的配時評分規則：依目前佇列與過去到車數，估算三個方案在下一週期的累積排隊量，取評分最低的方案作為參考答案。決策樹學習「車流狀態 → 參考方案」的對應。參考答案依賴簡化假設，沒有保證真實道路最優，也沒有證據顯示樹模型優於直接使用規則。每向有效域為 queue 0–120、30 秒到車 0–30；現有板端到車介面每向每秒 0/1。有效域外，現行韌體使用規則回退並保留旗標。\n\n| 資料 | 本輪用途 | 限制 |\n|---|---|---|\n| 已有 6 情境 x 3 seeds、每段 600 秒合成資料 | 重用 18 組固定/模型政策的既有比較 | 人工測試；本輪不產生新亂數 |\n| 歷史 600 秒 SD 實板紀錄 | 保留原決策、提交、生效與電子回讀證據 | 此歷史單輪只有模型政策；不與本輪 OCM 配對混用 |\n| 本輪保存輸入回放 | 6 組主機配對及 direction_switch 1 組實板配對 | 簡化 FIFO 合成資料；電子回讀不代表道路或目視驗證 |\n| 臺北 2026-10-22 13:06 一分鐘官方觀測 | 資料品質、單位與可用性分析 | 611 列單軸候選不是 611 個可控制路口；沒有有效兩軸配對/連續十分鐘 |\n| 舊國道分鐘快照與重建 replay | 歷史 UART 軟體測試來源記錄 | 人工配對與重複分鐘；不採作本輪官方時序/路口控制證據 |\n\n後續官方資料採下載後離線處理；保留原始時間、雜湊、車道涵蓋與缺值。缺分鐘不補零，不把同一快照重複成長時間資料，不任意配對無關方向，也不縮放超出介面的流量。分鐘總量若需轉成逐秒排程，另立明確方法與衍生標籤，尚未列為完成。"
+            }
+          ]
+        },
+        "isError": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "pinned_sdk_version",
+      "passed": true,
+      "details": "1.29.0"
+    },
+    {
+      "name": "exact_tool_allowlist",
+      "passed": true,
+      "details": [
+        "list_evidence",
+        "read_architecture_excerpt",
+        "summarize_archived_results"
+      ]
+    },
+    {
+      "name": "read_only_tool_annotations",
+      "passed": true,
+      "details": [
+        "list_evidence",
+        "read_architecture_excerpt",
+        "summarize_archived_results"
+      ]
+    },
+    {
+      "name": "archived_pair_keys_match",
+      "passed": true,
+      "details": {
+        "fixed_pairs": 18,
+        "model_pairs": 18
+      }
+    },
+    {
+      "name": "mcp_summary_matches_original_pairs",
+      "passed": true,
+      "details": {
+        "returned": 18,
+        "recomputed_from_archive": 18
+      }
+    },
+    {
+      "name": "mcp_summary_matches_original_fixed_qvs",
+      "passed": true,
+      "details": {
+        "returned": 399954,
+        "recomputed_from_archive": 399954
+      }
+    },
+    {
+      "name": "mcp_summary_matches_original_model_qvs",
+      "passed": true,
+      "details": {
+        "returned": 326830,
+        "recomputed_from_archive": 326830
+      }
+    },
+    {
+      "name": "mcp_summary_matches_original_regressed",
+      "passed": true,
+      "details": {
+        "returned": 5,
+        "recomputed_from_archive": 5
+      }
+    },
+    {
+      "name": "mcp_relative_change_matches_archive",
+      "passed": true,
+      "details": {
+        "returned": -18.28310255679403,
+        "recomputed_from_archive": -18.28310255679403
+      }
+    },
+    {
+      "name": "source_hash_current_arithmetic_audit",
+      "passed": true,
+      "details": {
+        "path": "evidence/current/audit_results.json",
+        "sha256": "b9122661cbcae83717afb0e9eb5317f5802f686bb616e69d783402595cfdb1e9"
+      }
+    },
+    {
+      "name": "source_hash_archived_architecture",
+      "passed": true,
+      "details": {
+        "path": "evidence/archive/dic3/source/DESIGN_original.md",
+        "sha256": "618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19"
+      }
+    },
+    {
+      "name": "source_hash_archived_host_records",
+      "passed": true,
+      "details": {
+        "path": "evidence/archive/dic3/evidence/firmware_validation_original.json",
+        "sha256": "b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164"
+      }
+    },
+    {
+      "name": "architecture_excerpt_matches_retained_source",
+      "passed": true,
+      "details": [
+        "## 2 本輪需求與狀態",
+        "## 5 模型與資料"
+      ]
+    },
+    {
+      "name": "historical_status_preserved",
+      "passed": true,
+      "details": "No new training, traffic simulation, inference, hardware run, or raw hardware trace revalidation is claimed."
+    }
+  ],
+  "remote_writes": false,
+  "overleaf_publication_verified": false,
+  "github_publication_verified": false,
+  "learning_platform_submission_verified": false,
+  "negotiated_protocol_version": "2025-11-25",
+  "server_info": {
+    "name": "traffic-assistant-evidence",
+    "version": "1.29.0"
+  },
+  "independent_archive_check": {
+    "path": "evidence/archive/dic3/evidence/firmware_validation_original.json",
+    "sha256": "b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164",
+    "original_records": 54,
+    "paired_fixed_and_model_records": 18,
+    "fixed_qvs": 399954,
+    "model_qvs": 326830,
+    "regressions": 5,
+    "qvs_relative_change_percent": -18.28310255679403,
+    "kind": "arithmetic over preserved historical records; not re-execution of the traffic model"
+  },
+  "completed_at_utc": "2026-11-25T15:37:50.752509+00:00",
+  "checks_passed": 14,
+  "checks_total": 14
+}
