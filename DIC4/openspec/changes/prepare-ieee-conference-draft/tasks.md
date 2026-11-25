@@ -18,6 +18,6 @@
 
 ## 4 Online publication
 - [ ] 4.1 Import or update the actual Overleaf project and retain its verified URL.
-- [ ] 4.2 Publish the OpenSpec project to the intended GitHub repository and retain its verified URL or revision.
+- [x] 4.2 Publish the OpenSpec project to the intended GitHub repository and retain its verified URL or revision.
 
 Learning-platform submission is tracked by the delivery record and is not assumed from package creation. Product implementation continues in the separate `integrate-task-workflow` change.
