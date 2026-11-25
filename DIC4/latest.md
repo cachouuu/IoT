@@ -12,6 +12,7 @@
 - 真實本地 MCP stdio 工作流程：initialize、tools/list、3 次 tools/call；14／14 項核對通過。
 - 最新 PDF 已逐頁檢查；無 overfull、缺字或未定義參照，字型已嵌入。
 - Overleaf 專用匯入檔、完整 GitHub 專案、繁中繳交指引與來源對照。
+- 已將本次 DIC4 作業發布至公開 repository `cachouuu/IoT` 的 `DIC4/` 資料夾，並確認遠端檔案與連結：[DIC4 作業資料夾](https://github.com/cachouuu/IoT/tree/main/DIC4)。
 
 ## 稿件的主要判斷
 
@@ -20,10 +21,9 @@
 ## 仍需要完成的線上事項
 
 1. 匯入實際 Overleaf 專案並取得可讀取連結。
-2. 發布 GitHub 專案並確認老師的讀取方式。
-3. 在課程平台依實際收件欄位完成繳交。
+2. 在課程平台依實際收件欄位完成繳交。
 
-以 `docs/PUBLICATION_STATUS.json` 為實際發布狀態；產生檔案不代表遠端操作已完成。原 `integrate-task-workflow` 產品整合任務仍維持待辦，本次沒有將它誤標完成。
+以 `docs/PUBLICATION_STATUS.json` 為實際發布狀態；GitHub 已完成發布，Overleaf 與課程平台仍待完成。原 `integrate-task-workflow` 產品整合任務仍維持待辦，本次沒有將它誤標完成。
 
 ## 交付檔案
 

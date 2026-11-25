@@ -13,7 +13,7 @@ IEEE conference draft using MCP and OpenSpec · 2026-11-25
 | 作業項目 | 對應成果 |
 |---|---|
 | IEEE conference draft | `paper/main.tex`、`paper/references.bib`、兩張向量圖與編譯 PDF |
-| GitHub 用 OpenSpec 專案（待上傳） | `openspec/`、固定版次的 `package.json`／`package-lock.json` 與驗證程式 |
+| GitHub 上的 OpenSpec（已發布） | `openspec/`、固定版次的 `package.json`／`package-lock.json` 與驗證程式 |
 | Using MCP | 可執行的 `mcp/evidence_server.py`、`mcp/demo_client.py` 與真實呼叫紀錄 |
 | 來源與實驗依據 | `evidence/archive/dic3/` 原檔、`evidence/current/` 本次查核輸出 |
 
@@ -31,7 +31,7 @@ IEEE conference draft using MCP and OpenSpec · 2026-11-25
 
 1. **先看論文 PDF。** 主要稿件位於 `paper/main.pdf`。
 2. **Overleaf。** 將交付的 `Traffic_Assistant_DIC4_Overleaf.zip` 上傳為新專案，主檔選 `main.tex`，compiler 選 pdfLaTeX，按 Recompile。詳見 `docs/SUBMISSION_GUIDE.md`。
-3. **GitHub。** 將本專案目錄完整放進你的 repository；尤其保留 `openspec/`、論文、實際驗證紀錄和 README。上傳後確認線上檔案與存取權限，再取得連結。
+3. **GitHub。** 本次 DIC4 成果已上傳至既有公開 repository `cachouuu/IoT` 的 `DIC4/` 資料夾：[DIC4 作業資料夾](https://github.com/cachouuu/IoT/tree/main/DIC4)。繳交時可使用此連結。
 4. **繳交。** 依課程作業區實際收件方式，提供論文 PDF、Overleaf 與 GitHub 連結，或完整作業 ZIP。截圖僅指定日期 2026-11-28，未顯示截止時分。
 
 ## 重跑已完成的檢查
