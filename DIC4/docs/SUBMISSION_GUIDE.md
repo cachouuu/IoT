@@ -18,7 +18,9 @@ Overleaf ZIP 內含 `main.tex`、`references.bib`、`IEEEtran.cls`、`IEEEtran.b
 
 ## GitHub
 
-完整專案已整理成 repository 目錄。可先在自己的 GitHub 建立新 repository，再以 GitHub Desktop 或 Git 上傳該目錄內容。至少應看到：
+GitHub 上傳已完成，位置為既有公開 repository `cachouuu/IoT` 的 `DIC4/` 資料夾。繳交 GitHub 連結時使用：[DIC4 作業資料夾](https://github.com/cachouuu/IoT/tree/main/DIC4)。
+
+以下檔案路徑皆相對於 `DIC4/`：
 
 - `README.md`
 - `openspec/`
@@ -29,19 +31,13 @@ Overleaf ZIP 內含 `main.tex`、`references.bib`、`IEEEtran.cls`、`IEEEtran.b
 - `scripts/`
 - `package.json` 與 `package-lock.json`
 
-這份專案含原專題程式快照與內部實驗紀錄，適合先建立私人 repository，再依課程要求設定老師可讀取的方式。若選擇公開，先確認團隊對原始專題檔案的公開安排。
-
-GitHub Desktop 的做法：將解壓後的 `traffic-assistant-dic4` 加入為 local repository，建立初始 commit，再 Publish repository。此文件沒有宣稱上述遠端操作已替你完成。
-
-若 GitHub Desktop 提示這個目錄還不是 Git repository，先在同一個目錄初始化 repository，再建立初始 commit 與發布。
-
 ## 課程作業區
 
 截圖的明確要求是 IEEE conference Overleaf draft，以及 GitHub 上的 OpenSpec；標題要求使用 MCP。建議附上：
 
 1. 論文 PDF。
 2. 實際可開啟的 Overleaf 連結。
-3. 實際可開啟的 GitHub 連結。
+3. GitHub 作業連結：[DIC4 作業資料夾](https://github.com/cachouuu/IoT/tree/main/DIC4)。
 4. 完整 DIC4 ZIP（若作業區接受附件）。
 
 MCP 說明與執行證據已位於 `docs/MCP_WORKFLOW.md`、`evidence/current/mcp_run.json`。老師若指定的是另一個課堂 MCP server，可保留本成果，再補上指定整合；目前作業截圖沒有這項細節。

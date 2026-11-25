@@ -1,19 +1,23 @@
 {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "overleaf": {
     "status": "not_published",
     "verified_url": null,
     "source_bundle": "Traffic_Assistant_DIC4_Overleaf.zip"
   },
   "github": {
-    "status": "not_published",
-    "verified_url": null,
+    "status": "published",
+    "verified_url": "https://github.com/cachouuu/IoT/tree/main/DIC4",
     "account_profile_available": true,
-    "accessible_repositories": 0
+    "repository": "cachouuu/IoT",
+    "branch": "main",
+    "path": "DIC4",
+    "visibility": "public",
+    "verified_commit": "b648077bcec01794fe8f9617419a51303b910f6b"
   },
   "learning_platform": {
     "status": "not_submitted",
     "verified_url": null
   },
-  "meaning": "Files and local checks do not establish remote import, publication, sharing, or course submission."
+  "meaning": "GitHub publication has been verified separately. Overleaf import and course submission remain pending."
 }
