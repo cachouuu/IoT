@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-11-25",
+  "overleaf": {
+    "status": "not_published",
+    "verified_url": null,
+    "source_bundle": "Traffic_Assistant_DIC4_Overleaf.zip"
+  },
+  "github": {
+    "status": "not_published",
+    "verified_url": null,
+    "account_profile_available": true,
+    "accessible_repositories": 0
+  },
+  "learning_platform": {
+    "status": "not_submitted",
+    "verified_url": null
+  },
+  "meaning": "Files and local checks do not establish remote import, publication, sharing, or course submission."
+}
