@@ -1,0 +1,22 @@
+{
+  "changes": [
+    {
+      "name": "prepare-ieee-conference-draft",
+      "completedTasks": 12,
+      "totalTasks": 14,
+      "lastModified": "2026-11-25T15:46:57.305Z",
+      "status": "in-progress"
+    },
+    {
+      "name": "integrate-task-workflow",
+      "completedTasks": 0,
+      "totalTasks": 12,
+      "lastModified": "2026-11-25T15:31:26.508Z",
+      "status": "in-progress"
+    }
+  ],
+  "root": {
+    "path": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
+    "source": "nearest"
+  }
+}

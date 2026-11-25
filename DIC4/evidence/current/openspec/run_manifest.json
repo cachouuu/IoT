@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-11-25T15:46:59.178140+00:00",
+  "expected_cli_version": "2.0.0",
+  "observed_cli_version": "2.0.0",
+  "version_matches": true,
+  "commands": [
+    {
+      "label": "version",
+      "arguments": [
+        "--version"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "validate_all",
+      "arguments": [
+        "validate",
+        "--all",
+        "--strict",
+        "--no-interactive",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "main_specs",
+      "arguments": [
+        "list",
+        "--specs",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "active_changes",
+      "arguments": [
+        "list",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "dic4_status",
+      "arguments": [
+        "status",
+        "--change",
+        "prepare-ieee-conference-draft",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "product_status",
+      "arguments": [
+        "status",
+        "--change",
+        "integrate-task-workflow",
+        "--json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "all_commands_succeeded": true,
+  "scope": "OpenSpec document structure and workflow metadata only; no traffic, board, or publication verification."
+}

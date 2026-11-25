@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "id": "integrate-task-workflow",
+      "type": "change",
+      "valid": true,
+      "issues": [],
+      "durationMs": 41
+    },
+    {
+      "id": "paired-evaluation",
+      "type": "spec",
+      "valid": true,
+      "issues": [],
+      "durationMs": 10
+    },
+    {
+      "id": "prepare-ieee-conference-draft",
+      "type": "change",
+      "valid": true,
+      "issues": [],
+      "durationMs": 31
+    },
+    {
+      "id": "proposal-documentation",
+      "type": "spec",
+      "valid": true,
+      "issues": [],
+      "durationMs": 2
+    },
+    {
+      "id": "traffic-control-core",
+      "type": "spec",
+      "valid": true,
+      "issues": [],
+      "durationMs": 1
+    }
+  ],
+  "summary": {
+    "totals": {
+      "items": 5,
+      "passed": 5,
+      "failed": 0
+    },
+    "byType": {
+      "change": {
+        "items": 2,
+        "passed": 2,
+        "failed": 0
+      },
+      "spec": {
+        "items": 3,
+        "passed": 3,
+        "failed": 0
+      }
+    }
+  },
+  "version": "1.0",
+  "root": {
+    "path": "/workspace/scratch/a5a6d3f35365/dic4_work/traffic-assistant-dic4",
+    "source": "nearest"
+  }
+}
