@@ -1,0 +1,14 @@
+{
+  "name": "traffic-assistant-dic3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DIC3 proposal and OpenSpec submission",
+  "devDependencies": {
+    "@fission-ai/openspec": "2.0.0"
+  },
+  "scripts": {
+    "spec:validate": "openspec validate --all --strict --no-interactive",
+    "spec:list": "openspec list --specs",
+    "spec:status": "openspec status --change integrate-task-workflow"
+  }
+}

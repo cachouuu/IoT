@@ -1,0 +1,284 @@
+{
+  "files": [
+    {
+      "path": "design.md",
+      "bytes": 3527,
+      "sha256": "3731d624b394fcf74ad22f1f733f3bba1ed525498ed3a5ee9f1b06a47e5665c8"
+    },
+    {
+      "path": "DIC3_Report.md",
+      "bytes": 30889,
+      "sha256": "f4dd57efb4fde866dd2254c8bf1b3275c337ef0cf5be5424fd5dc4568e71914c"
+    },
+    {
+      "path": "docs/Abstract.md",
+      "bytes": 5594,
+      "sha256": "7394f45a16cfabd97e5eb4d533032cd813fe0b495583f9f9c7e9bcc55be028dd"
+    },
+    {
+      "path": "docs/Cores_Tradeoffs_Details.md",
+      "bytes": 4250,
+      "sha256": "e9033bf0b745a653b9d8be0d7e574765a227e70d202b08c5a7a8e70f9049a920"
+    },
+    {
+      "path": "docs/Introduction.md",
+      "bytes": 2581,
+      "sha256": "5935c570711a40449c2fb00d872d9e7ce947719b3d98185a41628a262411b0cd"
+    },
+    {
+      "path": "docs/Related_Work.md",
+      "bytes": 4580,
+      "sha256": "541c35db546c67dc65e75ca765eb3c7445e57641466333ae12f895c6bb509bb9"
+    },
+    {
+      "path": "evidence/comparison_6pairs_original.json",
+      "bytes": 7295,
+      "sha256": "38a8ac70dc0127d12f9796740128ebb531f083728d9fb5e4e41e357e088df376"
+    },
+    {
+      "path": "evidence/data_audit.json",
+      "bytes": 4766,
+      "sha256": "dee382c1ea39aec2d82751aa0abfaa00dd99f4c8e26ecf34ad862d704e00bbae"
+    },
+    {
+      "path": "evidence/delivery_verification.json",
+      "bytes": 521,
+      "sha256": "357505c0cda5d7193a74537dd410af8b0871fe36ba66686a1a36d4f3b2b9b436"
+    },
+    {
+      "path": "evidence/EXPERIMENT_REPORT_original.md",
+      "bytes": 16615,
+      "sha256": "5c4f6fcf9442343310213dccc4524db55569e3c112c16e1fe95b0315d42e233f"
+    },
+    {
+      "path": "evidence/firmware_validation_original.json",
+      "bytes": 42568,
+      "sha256": "b23150f266380ec24dade7e763bb9eecf2c4d7fdc5aa31f597ad660be53c8164"
+    },
+    {
+      "path": "evidence/openspec_archive.txt",
+      "bytes": 309,
+      "sha256": "d9d9cafcde5043c80ac85e32b0939961725afff244d6632514ae3de183388033"
+    },
+    {
+      "path": "evidence/openspec_install.txt",
+      "bytes": 1613,
+      "sha256": "ced2580226eec2572c27e036167416c0e0288aa933a351e4b5fa76ee5ba29665"
+    },
+    {
+      "path": "evidence/openspec_main_specs.json",
+      "bytes": 407,
+      "sha256": "3d494683cda17d07c8e1c1bfa50bde4f6a9bd879816083372fb3f45514951566"
+    },
+    {
+      "path": "evidence/openspec_product_apply.json",
+      "bytes": 6598,
+      "sha256": "0af7bc189b3abdefeb8e8b096b633b68710a7b3d3797b24a29afbc26ec2222ae"
+    },
+    {
+      "path": "evidence/openspec_product_status.json",
+      "bytes": 4461,
+      "sha256": "29f5f875876b8e328c2ef578bb8b3e60e7e40782804ef1b4aa5367e52cd7c5b2"
+    },
+    {
+      "path": "evidence/openspec_validate_after_archive.json",
+      "bytes": 1068,
+      "sha256": "bbd6db0ca6284efc31002c463079172b2c832403c8c338e624aab3ad0eb4f844"
+    },
+    {
+      "path": "evidence/openspec_validate_archive_initial.json",
+      "bytes": 1566,
+      "sha256": "3e5dfcae0864f0d75d43b553af1462774eb792f18cba9b0b43c2b35485060086"
+    },
+    {
+      "path": "evidence/openspec_validate_before_archive.json",
+      "bytes": 1073,
+      "sha256": "c1a4cc1387d045940cbbb499754f7ca236496218279e3ffbdbae1de9e44567fe"
+    },
+    {
+      "path": "evidence/openspec_version.txt",
+      "bytes": 7,
+      "sha256": "efdfae9d0dc9b09f9524df6c401bf7143a882469c6243bfbcb0bbeaefe9aa3c1"
+    },
+    {
+      "path": "evidence/pdf_qa.json",
+      "bytes": 1007,
+      "sha256": "6926dcf7bfdb9c50e12477567ff390e268b069b12199228855b7e292e96a085d"
+    },
+    {
+      "path": "OPEN_SPEC_WORKFLOW.md",
+      "bytes": 4444,
+      "sha256": "ab93490a8c19c1be426d5d11e5a98fb163036746017e62b974e88e1456468bfa"
+    },
+    {
+      "path": "openspec/changes/archive/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/.openspec.yaml",
+      "bytes": 40,
+      "sha256": "3ea192d12c1ad3d96d8e6cfd6fddb23c8be77d85611385996b685b4736c117c0"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/design.md",
+      "bytes": 1012,
+      "sha256": "f47ca4cee21289fd58825eb051f4eae254984a81c61456c18975e460d3c12239"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/proposal.md",
+      "bytes": 839,
+      "sha256": "bb7aca09dcaa296a39e379329efcc52b93887ed3e3e86a05df49261ab717bc90"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/specs/proposal-documentation/spec.md",
+      "bytes": 1182,
+      "sha256": "5bd2690f236e35bb2466ce63f59ccaa804b0ae2e061b12cd72acc65af9aa15cd"
+    },
+    {
+      "path": "openspec/changes/archive/2026-11-13-refactor-project-proposal/tasks.md",
+      "bytes": 709,
+      "sha256": "029fda4c94c5bcfdad183df3c2d40fc4b33188bf9010b48c3e97379f8ac534c4"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/.openspec.yaml",
+      "bytes": 40,
+      "sha256": "3ea192d12c1ad3d96d8e6cfd6fddb23c8be77d85611385996b685b4736c117c0"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/design.md",
+      "bytes": 4055,
+      "sha256": "cc0d5e5375e092bbbc7ea78b50935a6dfb8320f1e237bd51174d5e762045e4b4"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/proposal.md",
+      "bytes": 1248,
+      "sha256": "536248108df4ea128951b27750c0b339d3476c914fdaeaa12bb192c27a957c80"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/data-qualification/spec.md",
+      "bytes": 1775,
+      "sha256": "3d979aca2dcebada3670b9a25d1cc1d439fab81194793808e7e312df9670dde1"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/decision-evidence/spec.md",
+      "bytes": 970,
+      "sha256": "3a7c6ceb03e7fd6772a4e4e79dcb53b153d77a001357c5437c55d488e566ab98"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/execution-verification/spec.md",
+      "bytes": 1425,
+      "sha256": "906deddb599ce09de54e50452cc12b49c2bd51de0223747dc99d1b44ee46a8a1"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/task-intake/spec.md",
+      "bytes": 883,
+      "sha256": "69acbbd048e01091f8f5bc9e2bfcacb1c58a387f83b0c36a87b608f7c0b2c968"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/specs/task-reporting/spec.md",
+      "bytes": 1037,
+      "sha256": "f629bf0f3dc0f43f30b20e84246dbb446cc9a85764ccf4d4e302ea8657ddb1d1"
+    },
+    {
+      "path": "openspec/changes/integrate-task-workflow/tasks.md",
+      "bytes": 1098,
+      "sha256": "85e07c73f340dfd7a4b7485a1d3192aad815bbc48f948c3a1b82ea22e4a7baf4"
+    },
+    {
+      "path": "openspec/config.yaml",
+      "bytes": 916,
+      "sha256": "ab651067df0eee554a8742206ab0da3133400b2f5cfbc8dcd6346e6636460e87"
+    },
+    {
+      "path": "openspec/specs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "openspec/specs/paired-evaluation/spec.md",
+      "bytes": 1740,
+      "sha256": "c4887581bc5261fe880f17121e937be57184c247446a9d185056d61c9a01a8e7"
+    },
+    {
+      "path": "openspec/specs/proposal-documentation/spec.md",
+      "bytes": 1421,
+      "sha256": "a2d0eba334ffeb1fc55a7253cc99c8b36a6eeecb78a6438b51f8e7067cc93945"
+    },
+    {
+      "path": "openspec/specs/traffic-control-core/spec.md",
+      "bytes": 2012,
+      "sha256": "e9801fcc53b88f568827f4a457649e008caf9cea5203fbb403e1c7dbf39920af"
+    },
+    {
+      "path": "package.json",
+      "bytes": 422,
+      "sha256": "5a38771d5e76c810263628c99610115ab07fce4d0f30204e17b634e377a18067"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1789,
+      "sha256": "6f538f127fd19d48b20958fa7924c96507742b4e186b4720af37d80f2d0a77a7"
+    },
+    {
+      "path": "scripts/audit_evidence.py",
+      "bytes": 2987,
+      "sha256": "2ac940373ed9020d6d45bb3e7d2a783437dbbd2d24e469569a5c8ee928876519"
+    },
+    {
+      "path": "scripts/openspec.ps1",
+      "bytes": 778,
+      "sha256": "b3b6062de30d6d4013247ef1ea9c212148a363c470e474d27dc4600675eaf4e3"
+    },
+    {
+      "path": "scripts/render_report.py",
+      "bytes": 10691,
+      "sha256": "56da5c473c735a0d66ca5a6751b231c3226157a160f2ea8084dfa4a417bd5aaa"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 30,
+      "sha256": "e5210cf647db0bb41080742ed4f3cc88cf63e7c95b2132c516ef76c6f8ce97fd"
+    },
+    {
+      "path": "source/DESIGN_original.md",
+      "bytes": 14166,
+      "sha256": "618b118c0682372387dcc0175ddeb7d421b0b626e2b7bbbe336cdf2b06f47c19"
+    },
+    {
+      "path": "source/traffic_agent.c",
+      "bytes": 7357,
+      "sha256": "2a5d781524a20c6a88ec7fc30d40ea3c793ccccd29f7cfeabab7a7b413e34d9c"
+    },
+    {
+      "path": "source/Traffic_Assistant_Proposal_2026-11-03.pdf",
+      "bytes": 281764,
+      "sha256": "3f95b14f5d3c2ea7a434e0c898925f5a63c6ccfbc33e96a8d52fe7611761ca78"
+    },
+    {
+      "path": "source/traffic_model.h",
+      "bytes": 976,
+      "sha256": "47ec8713863dc317c6e9f132e8fac21e264ec7788f778e96b3b9e2cde382269b"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 1865,
+      "sha256": "90200f3d85991f569f444514e136f17b7ebe650ba108d197c2128f8f562c05ee"
+    },
+    {
+      "path": "TRACEABILITY.md",
+      "bytes": 1648,
+      "sha256": "0ec951fb0ff08ccaa87aa0bef2dbbd8a316e5d210aed0011e9be1bc1f7623e83"
+    },
+    {
+      "path": "Traffic_Assistant_DIC3_Overview.pdf",
+      "bytes": 143414,
+      "sha256": "b1b46dfe953a8f2174301cb2e13cb42b30693ab0c8ee94ea4cc2c042e62ffb01"
+    },
+    {
+      "path": "Traffic_Assistant_DIC3_Report.pdf",
+      "bytes": 467337,
+      "sha256": "cdc69dacc73d1f5729fcac495b15529ec32ecda2bc2994090c7ffb5176080f76"
+    }
+  ]
+}
