@@ -1,0 +1,19 @@
+schema: spec-driven
+context: |
+  Traffic Timing Assistant, a single-intersection educational ARM/FPGA prototype.
+  Keep the existing 4-feature integer tree, firmware rule fallback, 3 legal plans,
+  30-second cycles, and cycle-boundary application. No new model or hardware deployment.
+  Documentation work and product implementation are distinct. Pending integrations
+  are requirements, not completed features. Existing traffic results are synthetic FIFO evidence.
+  Write user-facing explanations in Traditional Chinese; the DIC4 conference manuscript is English.
+  Use SHALL and WHEN/THEN in requirements. DIC4 prepares a paper and artifact package;
+  it does not complete the separate pending product-integration change.
+  Online publication is complete only when its actual success and URL have been verified.
+rules:
+  proposal:
+    - State the bounded scope, evidence, and non-goals.
+  specs:
+    - Every requirement must have at least one concrete WHEN/THEN scenario.
+    - Include invalid-input and failure scenarios and distinguish ACK from applied.
+  tasks:
+    - Mark complete only when there is corresponding implementation or document evidence.
