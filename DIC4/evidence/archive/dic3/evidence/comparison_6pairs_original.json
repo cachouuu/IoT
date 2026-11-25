@@ -1,0 +1,292 @@
+{
+  "pairs": [
+    {
+      "scenario": "balanced",
+      "seed": 2779054081,
+      "fixed": {
+        "seconds": 600,
+        "arrived_vehicles": 357,
+        "departed_vehicles": 352,
+        "queue_vehicle_seconds": 3035,
+        "total_wait_departed_seconds": 2998,
+        "end_queue_ns": 3,
+        "end_queue_ew": 2,
+        "decisions": 20,
+        "model_decisions": 0,
+        "fallbacks": 0,
+        "plan_counts": [
+          20,
+          0,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "model": {
+        "seconds": 600,
+        "arrived_vehicles": 357,
+        "departed_vehicles": 352,
+        "queue_vehicle_seconds": 3263,
+        "total_wait_departed_seconds": 3226,
+        "end_queue_ns": 3,
+        "end_queue_ew": 2,
+        "decisions": 20,
+        "model_decisions": 20,
+        "fallbacks": 0,
+        "plan_counts": [
+          8,
+          3,
+          9
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "queue_change_percent": 7.512355848434926
+    },
+    {
+      "scenario": "ns_heavy",
+      "seed": 2779054081,
+      "fixed": {
+        "seconds": 600,
+        "arrived_vehicles": 371,
+        "departed_vehicles": 330,
+        "queue_vehicle_seconds": 11815,
+        "total_wait_departed_seconds": 9595,
+        "end_queue_ns": 41,
+        "end_queue_ew": 0,
+        "decisions": 20,
+        "model_decisions": 0,
+        "fallbacks": 0,
+        "plan_counts": [
+          20,
+          0,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "model": {
+        "seconds": 600,
+        "arrived_vehicles": 371,
+        "departed_vehicles": 366,
+        "queue_vehicle_seconds": 3202,
+        "total_wait_departed_seconds": 3163,
+        "end_queue_ns": 5,
+        "end_queue_ew": 0,
+        "decisions": 20,
+        "model_decisions": 20,
+        "fallbacks": 0,
+        "plan_counts": [
+          1,
+          19,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "queue_change_percent": -72.8988573846805
+    },
+    {
+      "scenario": "ew_heavy",
+      "seed": 2779054081,
+      "fixed": {
+        "seconds": 600,
+        "arrived_vehicles": 386,
+        "departed_vehicles": 341,
+        "queue_vehicle_seconds": 14972,
+        "total_wait_departed_seconds": 12652,
+        "end_queue_ns": 1,
+        "end_queue_ew": 44,
+        "decisions": 20,
+        "model_decisions": 0,
+        "fallbacks": 0,
+        "plan_counts": [
+          20,
+          0,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "model": {
+        "seconds": 600,
+        "arrived_vehicles": 386,
+        "departed_vehicles": 382,
+        "queue_vehicle_seconds": 3126,
+        "total_wait_departed_seconds": 3089,
+        "end_queue_ns": 2,
+        "end_queue_ew": 2,
+        "decisions": 20,
+        "model_decisions": 20,
+        "fallbacks": 0,
+        "plan_counts": [
+          0,
+          0,
+          20
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "queue_change_percent": -79.12102591504141
+    },
+    {
+      "scenario": "direction_switch",
+      "seed": 2779054081,
+      "fixed": {
+        "seconds": 600,
+        "arrived_vehicles": 361,
+        "departed_vehicles": 331,
+        "queue_vehicle_seconds": 10369,
+        "total_wait_departed_seconds": 9343,
+        "end_queue_ns": 0,
+        "end_queue_ew": 30,
+        "decisions": 20,
+        "model_decisions": 0,
+        "fallbacks": 0,
+        "plan_counts": [
+          20,
+          0,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "model": {
+        "seconds": 600,
+        "arrived_vehicles": 361,
+        "departed_vehicles": 359,
+        "queue_vehicle_seconds": 3089,
+        "total_wait_departed_seconds": 3084,
+        "end_queue_ns": 0,
+        "end_queue_ew": 2,
+        "decisions": 20,
+        "model_decisions": 20,
+        "fallbacks": 0,
+        "plan_counts": [
+          1,
+          9,
+          10
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "queue_change_percent": -70.20927765454721
+    },
+    {
+      "scenario": "bursty",
+      "seed": 2779054081,
+      "fixed": {
+        "seconds": 600,
+        "arrived_vehicles": 341,
+        "departed_vehicles": 339,
+        "queue_vehicle_seconds": 3485,
+        "total_wait_departed_seconds": 3480,
+        "end_queue_ns": 0,
+        "end_queue_ew": 2,
+        "decisions": 20,
+        "model_decisions": 0,
+        "fallbacks": 0,
+        "plan_counts": [
+          20,
+          0,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "model": {
+        "seconds": 600,
+        "arrived_vehicles": 341,
+        "departed_vehicles": 339,
+        "queue_vehicle_seconds": 4126,
+        "total_wait_departed_seconds": 4121,
+        "end_queue_ns": 0,
+        "end_queue_ew": 2,
+        "decisions": 20,
+        "model_decisions": 20,
+        "fallbacks": 0,
+        "plan_counts": [
+          2,
+          5,
+          13
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "queue_change_percent": 18.393113342898136
+    },
+    {
+      "scenario": "overload",
+      "seed": 2779054081,
+      "fixed": {
+        "seconds": 600,
+        "arrived_vehicles": 781,
+        "departed_vehicles": 475,
+        "queue_vehicle_seconds": 93817,
+        "total_wait_departed_seconds": 56483,
+        "end_queue_ns": 155,
+        "end_queue_ew": 151,
+        "decisions": 20,
+        "model_decisions": 0,
+        "fallbacks": 0,
+        "plan_counts": [
+          20,
+          0,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "model": {
+        "seconds": 600,
+        "arrived_vehicles": 781,
+        "departed_vehicles": 475,
+        "queue_vehicle_seconds": 93589,
+        "total_wait_departed_seconds": 47749,
+        "end_queue_ns": 79,
+        "end_queue_ew": 227,
+        "decisions": 20,
+        "model_decisions": 10,
+        "fallbacks": 10,
+        "plan_counts": [
+          0,
+          20,
+          0
+        ],
+        "error_flags": 0,
+        "applied_confirmations": 19,
+        "engine_bytes": 2264,
+        "model_bytes": 4104
+      },
+      "queue_change_percent": -0.24302631719198012
+    }
+  ],
+  "pair_count": 6,
+  "fixed_queue_vehicle_seconds": 137493,
+  "model_queue_vehicle_seconds": 110395,
+  "queue_change_percent": -19.708639712567184,
+  "better": 4,
+  "worse": 2
+}

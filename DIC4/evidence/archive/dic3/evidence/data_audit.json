@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "kind": "recalculation_of_existing_saved_results",
+  "new_training": false,
+  "new_board_run": false,
+  "new_traffic_experiment": false,
+  "batches_must_not_be_combined": true,
+  "host_18_pairs": {
+    "pairs": 18,
+    "fixed_qvs": 399954,
+    "model_qvs": 326830,
+    "relative_change_percent": -18.283102556794027,
+    "improved": 13,
+    "regressed": 5,
+    "unchanged": 0,
+    "cases": [
+      {
+        "scenario": "balanced",
+        "seed": 2779054081,
+        "fixed": 3035,
+        "model": 3263
+      },
+      {
+        "scenario": "balanced",
+        "seed": 2779054082,
+        "fixed": 2714,
+        "model": 2674
+      },
+      {
+        "scenario": "balanced",
+        "seed": 2779054083,
+        "fixed": 3019,
+        "model": 3421
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054081,
+        "fixed": 11815,
+        "model": 3202
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054082,
+        "fixed": 7942,
+        "model": 2763
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054083,
+        "fixed": 13768,
+        "model": 4140
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054081,
+        "fixed": 14972,
+        "model": 3126
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054082,
+        "fixed": 12166,
+        "model": 2399
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054083,
+        "fixed": 14052,
+        "model": 2743
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054081,
+        "fixed": 10369,
+        "model": 3089
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054082,
+        "fixed": 8464,
+        "model": 2546
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054083,
+        "fixed": 8150,
+        "model": 3014
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054081,
+        "fixed": 3485,
+        "model": 4126
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054082,
+        "fixed": 2881,
+        "model": 3517
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054083,
+        "fixed": 3257,
+        "model": 3626
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054081,
+        "fixed": 93817,
+        "model": 93589
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054082,
+        "fixed": 90336,
+        "model": 90108
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054083,
+        "fixed": 95712,
+        "model": 95484
+      }
+    ]
+  },
+  "host_6_pairs": {
+    "pairs": 6,
+    "fixed_qvs": 137493,
+    "model_qvs": 110395,
+    "relative_change_percent": -19.708639712567187,
+    "improved": 4,
+    "regressed": 2,
+    "unchanged": 0,
+    "cases": [
+      {
+        "scenario": "balanced",
+        "seed": 2779054081,
+        "fixed": 3035,
+        "model": 3263
+      },
+      {
+        "scenario": "ns_heavy",
+        "seed": 2779054081,
+        "fixed": 11815,
+        "model": 3202
+      },
+      {
+        "scenario": "ew_heavy",
+        "seed": 2779054081,
+        "fixed": 14972,
+        "model": 3126
+      },
+      {
+        "scenario": "direction_switch",
+        "seed": 2779054081,
+        "fixed": 10369,
+        "model": 3089
+      },
+      {
+        "scenario": "bursty",
+        "seed": 2779054081,
+        "fixed": 3485,
+        "model": 4126
+      },
+      {
+        "scenario": "overload",
+        "seed": 2779054081,
+        "fixed": 93817,
+        "model": 93589
+      }
+    ]
+  },
+  "source_integrity": [
+    {
+      "snapshot": "source/DESIGN_original.md",
+      "sha256_match": true,
+      "original_unchanged": true
+    },
+    {
+      "snapshot": "source/Traffic_Assistant_Proposal_2026-11-03.pdf",
+      "sha256_match": true,
+      "original_unchanged": true
+    },
+    {
+      "snapshot": "evidence/firmware_validation_original.json",
+      "sha256_match": true,
+      "original_unchanged": true
+    },
+    {
+      "snapshot": "evidence/EXPERIMENT_REPORT_original.md",
+      "sha256_match": true,
+      "original_unchanged": true
+    },
+    {
+      "snapshot": "evidence/comparison_6pairs_original.json",
+      "sha256_match": true,
+      "original_unchanged": true
+    },
+    {
+      "snapshot": "source/traffic_model.h",
+      "sha256_match": true,
+      "original_unchanged": true
+    },
+    {
+      "snapshot": "source/traffic_agent.c",
+      "sha256_match": true,
+      "original_unchanged": true
+    }
+  ]
+}
